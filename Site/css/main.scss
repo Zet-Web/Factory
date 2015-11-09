@@ -1,0 +1,219 @@
+@charset "utf-8";
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+/* AUTHOR Zet-Web */
+
+/* ==========================================================================
+                          IMPORTS
+   ========================================================================== */
+
+@import "partials/_mixins";
+@import "partials/css3-mixins";
+@import "animate/animate";
+@import "hover/hover";
+
+@font-face {
+    font-family: 'AvenirNextCyr-Bold';
+    src: url('../fonts/AvenirNextCyr-Bold.eot');
+    src: url('../fonts/AvenirNextCyr-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/AvenirNextCyr-Bold.woff') format('woff'), url('../fonts/AvenirNextCyr-Bold.ttf') format('truetype'), url('../fonts/AvenirNextCyr-Bold.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'AvenirNextCyr-BoldItalic';
+    src: url('../fonts/AvenirNextCyr-BoldItalic.eot');
+    src: url('../fonts/AvenirNextCyr-BoldItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/AvenirNextCyr-BoldItalic.woff') format('woff'), url('../fonts/AvenirNextCyr-BoldItalic.ttf') format('truetype'), url('../fonts/AvenirNextCyr-BoldItalic.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'AvenirNextCyr-Demi';
+    src: url('../fonts/AvenirNextCyr-Demi.eot');
+    src: url('../fonts/AvenirNextCyr-Demi.eot?#iefix') format('embedded-opentype'), url('../fonts/AvenirNextCyr-Demi.woff') format('woff'), url('../fonts/AvenirNextCyr-Demi.ttf') format('truetype'), url('../fonts/AvenirNextCyr-Demi.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+
+@font-face {
+    font-family: 'AvenirNextCyr-Regular';
+    src: url('../fonts/AvenirNextCyr-Regular.eot');
+    src: url('../fonts/AvenirNextCyr-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/AvenirNextCyr-Regular.woff') format('woff'), url('../fonts/AvenirNextCyr-Regular.ttf') format('truetype'), url('../fonts/AvenirNextCyr-Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'AvenirNextCyr-UltraLightIt';
+    src: url('../fonts/AvenirNextCyr-UltraLightIt.eot');
+    src: url('../fonts/AvenirNextCyr-UltraLightIt.eot?#iefix') format('embedded-opentype'), url('../fonts/AvenirNextCyr-UltraLightIt.woff') format('woff'), url('../fonts/AvenirNextCyr-UltraLightIt.ttf') format('truetype'), url('../fonts/AvenirNextCyr-UltraLightIt.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'AvenirNextCyr-Light';
+    src: url('../fonts/AvenirNextCyr-Light.eot');
+    src: url('../fonts/AvenirNextCyr-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/AvenirNextCyr-Light.woff') format('woff'), url('../fonts/AvenirNextCyr-Light.ttf') format('truetype'), url('../fonts/AvenirNextCyr-Light.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'AvenirNextCyr-Italic';
+    src: url('../fonts/AvenirNextCyr-Italic.otf');
+  /*  src: url('../fonts/AvenirNextCyr-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/AvenirNextCyr-Medium.woff') format('woff'), url('../fonts/AvenirNextCyr-Medium.ttf') format('truetype'), url('../fonts/AvenirNextCyr-Medium.svg') format('svg');*/
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'AvenirNextCyr-Medium';
+    src: url('../fonts/medium/avenir-medium.otf');
+    src: url('../fonts/medium/avenir-medium.eot?#iefix') format('embedded-opentype'), url('../fonts/medium/avenir-medium.woff') format('woff'), url('../fonts/medium/avenir-medium.ttf') format('truetype'), url('../fonts/medium/avenir-medium.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'AvenirNextCyr-Thin';
+    src: url('../fonts/AvenirNextCyr-Thin.eot');
+    src: url('../fonts/AvenirNextCyr-Thin.eot?#iefix') format('embedded-opentype'), url('../fonts/AvenirNextCyr-Thin.woff') format('woff'), url('../fonts/AvenirNextCyr-Thin.ttf') format('truetype'), url('../fonts/AvenirNextCyr-Thin.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+/*
+|^^^^^^^^^^^|______ EXAMPLE
+|____EXAMPLES_Code____|','''|'''''''''\____,, CAN WRITE
+|_______________| _|'____|____| HERE
+*'(@)'(@)'''''''|(@)(@)******|(@)*
+
+
+.class {
+	  @include bounceIn();
+}
+
+@include {
+	image-2-x(
+	)
+}
+
+*/
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+
+/*================ START CUSTOM STLYES  ==================*/
+
+/* @include font-face(Samplino, fonts/Samplino);*/
+// @include fchar_text_serif(16px, 20px, #FFF, 'Roboto Slab' );
+//fonts
+$thin: '100';
+$light: '300';
+$regular: '400';
+$medium: '500';
+$bold: '700';
+$ultrabold: '900';
+
+/*
+$medium: 'ConquerorSansMedium';
+$semi: '$$$$$$$SansSemiBold';
+$thin: 'Conqueror12312321Thin';
+$font-2: 'Roboto Slab';
+$serif: 'serif';*/
+
+
+
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media print,
+(-o-min-device-pixel-ratio: 5/4),
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 120dpi) {
+
+}
+
+/*===== DEFAULT FONT PROJECT =======*/
+/* ================= FONTS ============
+===================== WEB ================
+
+font-family: 'ConquerorSans';
+font-family: 'ConquerorSansLight';
+font-family: 'ConquerorSansMedium';
+font-family: 'ConquerorSansSemiBold;
+font-family: 'ConquerorSansThin';
+
+
+*/
+
+
+
+*{
+	font-family: 'AvenirNextCyr-Medium', sans-serif;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/*
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+$_____________________$__________________________$
+$____________________$$$_________________________$
+$__$_________________$$$________________$________$
+$___$$______________$$$$$_____________$$_________$
+$____$$$____________$$$$$___________$$$__________$
+$_____$$$$$_________$$$$$________$$$$$___________$
+$______$$$$$$$______$$$$$_____$$$$$$$____________$
+$________$$$$$$$____$$$$$___$$$$$$$______________$
+$___________$$$$$____$$$___$$$$$_________________$
+$__$$$$$$$______$$$__$$$__$$$______$$$$$$$_______$
+$______$$$$$$$$____$$_$_$$____$$$$$$$$___________$
+$__________$$$$$$$$$_$$$_$$$$$$$$$_______________$
+$_________________$$$_$_$$$______________________$
+$_____________$$$$$___$___$$$$$__________________$
+$_____________________$__________________________$
+$_____________________$__________________________$
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+*/
+
+
+/* ==========================================================================
+                          #NAV-MENU STYLE
+   ========================================================================== */
+#nav-menu {
+
+} /* #nav-menu CLOSING TAG */
+
+
+/* ==========================================================================
+                          FOOTER STYLE
+   ========================================================================== */
+
+
+
+/* ==========================================================================
+                          CONTENT STYLE
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
