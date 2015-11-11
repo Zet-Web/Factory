@@ -1,0 +1,244 @@
+    .main-nav
+      .dropdown
+        li
+          ul
+            li
+              a
+                color: #999
+                font-size: 16px
+                font-weight: 500
+                line-height: 18px
+
+    .menu
+      height: 100%
+      position: fixed
+      width: 27%
+      top: 0
+      right: 0
+      background-color: #FFF
+      padding-left: 38px
+      .contacts
+        bottom: 0
+        position: absolute
+        width: 215px
+        padding-left: 22px
+        .social-acc
+        .soc-2
+        .soc-1
+        .number
+          color: #333
+          font-size: 20px
+          line-height: 36px
+          text-transform: uppercase
+          font-family: 'AvenirNextCyr-Bold'
+        .city
+          color: black
+          font-size: 18px
+          line-height: 18px
+          margin-top: 15px
+          margin-bottom: 5px
+        .adress
+          color: #bebebe
+          font-size: 15px
+          line-height: 22px
+          margin-top: 0
+        & > hr
+          background-color: #ff4440
+          height: 2px
+          border: 0
+        .soc-3
+        .soc
+          margin-right: 5px
+          display: inline-block
+        .place
+      .main-nav
+        ul
+          padding-left: 0
+          list-style-type: none
+          li
+            a
+              color: black
+              font-size: 25px
+              font-weight: 300
+              line-height: 38px
+              font-family: 'AvenirNextCyr-Demi', sans-serif
+              text-decoration: none
+              -webkit-transition: all .25s ease
+              -moz-transition: all .25s ease
+              -ms-transition: all .25s ease
+              -o-transition: all .25s ease
+              transition: all .25s ease
+              &:hover
+                color: #ff4440
+      .logo
+        margin-top: 40px
+        & > a
+          & > img
+
+    *
+      font-family: 'AvenirNextCyr-Medium', sans-serif
+      -webkit-backface-visibility: hidden
+      backface-visibility: hidden
+      -moz-osx-font-smoothing: grayscale
+
+    html,
+  body
+      height: 100%
+
+    .digital
+      width: 73%
+      height: 100%
+      background: url('../images/slide-1.jpg')
+      .label-h
+        color: #333
+        font-size: 32px
+        font-weight: 100
+        line-height: 41px
+        text-transform: uppercase
+        text-align: center
+        margin: 16px 0
+        letter-spacing: 15.7px
+        font-family: 'AvenirNextCyr-Thin', sans-serif
+      .vcenter
+        display: inline-block
+        width: 100%
+        height: 240px
+        position: relative
+        top: 50%
+        -webkit-transform: translateY(-50%)
+        -ms-transform: translateY(-50%)
+        transform: translateY(-50%)
+      .company-name
+        color: #333
+        font-size: 84px
+        font-weight: 300
+        line-height: 78px
+        text-transform: uppercase
+        text-align: center
+        margin: 20px 0
+        letter-spacing: 7px
+      .watch-works
+        width: 263px
+        height: 54px
+        border: 1px solid #ff4440
+        border-radius: 3px
+        margin: auto
+        a
+          height: 100%
+          color: #ff4440
+          font-size: 18px
+          font-weight: 400
+          text-decoration: none
+          text-align: center
+          display: block
+          width: 100%
+          line-height: 50px
+          -webkit-transition: all 0.3s ease
+          -moz-transition: all 0.3s ease
+          -ms-transition: all 0.3s ease
+          -o-transition: all 0.3s ease
+          transition: all 0.3s ease
+          &:hover
+            color: #FFF
+            background-color: #ff4440
+
+    *, *:before, *:after
+      -webkit-box-sizing: inherit
+      -moz-box-sizing: inherit
+      box-sizing: inherit
+
+    .dropdown
+      height: 100%
+      width: 250px
+      padding-top: 20px
+      li
+        padding: 0 10px
+        &.multi
+          & > a
+            position: relative
+            &:after
+              width: 11px
+              content: ""
+              height: 6px
+              background: url('../images/triangle.png')
+              background-repeat: no-repeat
+              -webkit-background-size: cover
+              background-size: cover
+              position: absolute
+              top: 28px
+              left: 110px
+          &.selected
+            & > a
+              color: #ff4440
+        &.selected
+        a
+          display: block
+          width: 100%
+          padding: 10px
+        & > ul
+          li
+            padding: 0 20px
+            & > ul
+              li
+                padding: 10px 30px
+      ul
+        li
+          ul
+            li
+              a
+                color: #999
+                font-size: 16px
+                font-weight: 500
+                line-height: 18px
+
+    @font-face
+      font-family: 'AvenirNextCyr-Bold'
+      src: url("../fonts/AvenirNextCyr-Bold.eot")
+      src: url("../fonts/AvenirNextCyr-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/AvenirNextCyr-Bold.woff") format("woff"), url("../fonts/AvenirNextCyr-Bold.ttf") format("truetype"), url("../fonts/AvenirNextCyr-Bold.svg") format("svg")
+      font-weight: normal
+      font-style: normal
+      font-family: 'AvenirNextCyr-BoldItalic'
+      src: url("../fonts/AvenirNextCyr-BoldItalic.eot")
+      src: url("../fonts/AvenirNextCyr-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/AvenirNextCyr-BoldItalic.woff") format("woff"), url("../fonts/AvenirNextCyr-BoldItalic.ttf") format("truetype"), url("../fonts/AvenirNextCyr-BoldItalic.svg") format("svg")
+      font-weight: normal
+      font-style: normal
+      font-family: 'AvenirNextCyr-Demi'
+      src: url("../fonts/AvenirNextCyr-Demi.eot")
+      src: url("../fonts/AvenirNextCyr-Demi.eot?#iefix") format("embedded-opentype"), url("../fonts/AvenirNextCyr-Demi.woff") format("woff"), url("../fonts/AvenirNextCyr-Demi.ttf") format("truetype"), url("../fonts/AvenirNextCyr-Demi.svg") format("svg")
+      font-weight: normal
+      font-style: normal
+      font-family: 'AvenirNextCyr-Regular'
+      src: url("../fonts/AvenirNextCyr-Regular.eot")
+      src: url("../fonts/AvenirNextCyr-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/AvenirNextCyr-Regular.woff") format("woff"), url("../fonts/AvenirNextCyr-Regular.ttf") format("truetype"), url("../fonts/AvenirNextCyr-Regular.svg") format("svg")
+      font-weight: normal
+      font-style: normal
+      font-family: 'AvenirNextCyr-UltraLightIt'
+      src: url("../fonts/AvenirNextCyr-UltraLightIt.eot")
+      src: url("../fonts/AvenirNextCyr-UltraLightIt.eot?#iefix") format("embedded-opentype"), url("../fonts/AvenirNextCyr-UltraLightIt.woff") format("woff"), url("../fonts/AvenirNextCyr-UltraLightIt.ttf") format("truetype"), url("../fonts/AvenirNextCyr-UltraLightIt.svg") format("svg")
+      font-weight: normal
+      font-style: normal
+      font-family: 'AvenirNextCyr-Light'
+      src: url("../fonts/AvenirNextCyr-Light.eot")
+      src: url("../fonts/AvenirNextCyr-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/AvenirNextCyr-Light.woff") format("woff"), url("../fonts/AvenirNextCyr-Light.ttf") format("truetype"), url("../fonts/AvenirNextCyr-Light.svg") format("svg")
+      font-weight: normal
+      font-style: normal
+      font-family: 'AvenirNextCyr-Italic'
+      src: url("../fonts/AvenirNextCyr-Italic.otf")
+      font-weight: normal
+      font-style: normal
+      font-family: 'AvenirNextCyr-Medium'
+      src: url("../fonts/medium/avenir-medium.otf")
+      src: url("../fonts/medium/avenir-medium.eot?#iefix") format("embedded-opentype"), url("../fonts/medium/avenir-medium.woff") format("woff"), url("../fonts/medium/avenir-medium.ttf") format("truetype"), url("../fonts/medium/avenir-medium.svg") format("svg")
+      font-weight: normal
+      font-style: normal
+      font-family: 'AvenirNextCyr-Thin'
+      src: url("../fonts/AvenirNextCyr-Thin.eot")
+      src: url("../fonts/AvenirNextCyr-Thin.eot?#iefix") format("embedded-opentype"), url("../fonts/AvenirNextCyr-Thin.woff") format("woff"), url("../fonts/AvenirNextCyr-Thin.ttf") format("truetype"), url("../fonts/AvenirNextCyr-Thin.svg") format("svg")
+      font-weight: normal
+      font-style: normal
+
+    html
+      -webkit-box-sizing: border-box
+      -moz-box-sizing: border-box
+      box-sizing: border-box
+

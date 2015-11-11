@@ -1,0 +1,39 @@
+/*
+Error: Indenting at the beginning of the document is illegal.
+        on line 1 of L:/home/localhost/www/Factory/Site/sass/test.sass
+
+1:     .main-nav
+2:       .dropdown
+3:         li
+4:           ul
+5:             li
+6:               a
+
+Backtrace:
+L:/home/localhost/www/Factory/Site/sass/test.sass:1
+C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/engine.rb:458:in `block in tabulate'
+C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/engine.rb:441:in `each'
+C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/engine.rb:441:in `each_with_index'
+C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/engine.rb:441:in `tabulate'
+C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/engine.rb:406:in `_to_tree'
+C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/engine.rb:278:in `render'
+C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/plugin/compiler.rb:209:in `each'
+C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/compass-1.0.3/lib/compass/sass_compiler.rb:40:in `compile!'
+C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/compass-1.0.3/lib/compass/commands/update_project.rb:49:in `perform'
+C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/compass-1.0.3/lib/compass/commands/base.rb:18:in `execute'
+C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/compass-1.0.3/lib/compass/commands/project_base.rb:19:in `execute'
+C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/compass-1.0.3/bin/compass:30:in `block in <top (required)>'
+C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/compass-1.0.3/bin/compass:44:in `call'
+C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/compass-1.0.3/bin/compass:44:in `<top (required)>'
+C:/tools/ruby21/bin/compass:23:in `load'
+C:/tools/ruby21/bin/compass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Indenting at the beginning of the document is illegal.\A         on line 1 of L:/home/localhost/www/Factory/Site/sass/test.sass\A \A 1:     .main-nav\A 2:       .dropdown\A 3:         li\A 4:           ul\A 5:             li\A 6:               a"; }

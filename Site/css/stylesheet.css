@@ -162,7 +162,7 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 .menu {
    height:100%;
    position: fixed;
-   width: 27%;
+   width: 23%;
    top: 0;
    right:0;
    background-color:#FFF;
@@ -214,14 +214,14 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
   margin: 20px 0;
   letter-spacing: 7px;
 }
-.digital .watch-works  {
+.digital .watch-works , .default {
   width: 263px;
   height: 54px;
   border: 1px solid #ff4440;
   border-radius: 3px;
   margin: auto;
 }
-.digital .watch-works a {
+.digital .watch-works a, .default a {
   height: 100%;
   color: #ff4440;
   font-size: 18px;
@@ -238,11 +238,12 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
           transition: all 0.3s ease;
 }
 
-.digital .watch-works a:hover {
+.digital .watch-works a:hover, .default  a:hover {
   color:#FFF;
   background-color:#ff4440;
 }
 .menu {
+
 }
 
 .menu .logo {

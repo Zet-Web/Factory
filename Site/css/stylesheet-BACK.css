@@ -1,0 +1,401 @@
+
+@font-face {
+  font-family: 'AvenirNextCyr-Bold';
+  src: url("../fonts/AvenirNextCyr-Bold.eot");
+  src: url("../fonts/AvenirNextCyr-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/AvenirNextCyr-Bold.woff") format("woff"), url("../fonts/AvenirNextCyr-Bold.ttf") format("truetype"), url("../fonts/AvenirNextCyr-Bold.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AvenirNextCyr-BoldItalic';
+  src: url("../fonts/AvenirNextCyr-BoldItalic.eot");
+  src: url("../fonts/AvenirNextCyr-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/AvenirNextCyr-BoldItalic.woff") format("woff"), url("../fonts/AvenirNextCyr-BoldItalic.ttf") format("truetype"), url("../fonts/AvenirNextCyr-BoldItalic.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AvenirNextCyr-Demi';
+  src: url("../fonts/AvenirNextCyr-Demi.eot");
+  src: url("../fonts/AvenirNextCyr-Demi.eot?#iefix") format("embedded-opentype"), url("../fonts/AvenirNextCyr-Demi.woff") format("woff"), url("../fonts/AvenirNextCyr-Demi.ttf") format("truetype"), url("../fonts/AvenirNextCyr-Demi.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AvenirNextCyr-Regular';
+  src: url("../fonts/AvenirNextCyr-Regular.eot");
+  src: url("../fonts/AvenirNextCyr-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/AvenirNextCyr-Regular.woff") format("woff"), url("../fonts/AvenirNextCyr-Regular.ttf") format("truetype"), url("../fonts/AvenirNextCyr-Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AvenirNextCyr-UltraLightIt';
+  src: url("../fonts/AvenirNextCyr-UltraLightIt.eot");
+  src: url("../fonts/AvenirNextCyr-UltraLightIt.eot?#iefix") format("embedded-opentype"), url("../fonts/AvenirNextCyr-UltraLightIt.woff") format("woff"), url("../fonts/AvenirNextCyr-UltraLightIt.ttf") format("truetype"), url("../fonts/AvenirNextCyr-UltraLightIt.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AvenirNextCyr-Light';
+  src: url("../fonts/AvenirNextCyr-Light.eot");
+  src: url("../fonts/AvenirNextCyr-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/AvenirNextCyr-Light.woff") format("woff"), url("../fonts/AvenirNextCyr-Light.ttf") format("truetype"), url("../fonts/AvenirNextCyr-Light.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AvenirNextCyr-Italic';
+  src: url("../fonts/AvenirNextCyr-Italic.otf");
+  /*  src: url('../fonts/AvenirNextCyr-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/AvenirNextCyr-Medium.woff') format('woff'), url('../fonts/AvenirNextCyr-Medium.ttf') format('truetype'), url('../fonts/AvenirNextCyr-Medium.svg') format('svg');*/
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AvenirNextCyr-Medium';
+  src: url("../fonts/medium/avenir-medium.otf");
+  src: url("../fonts/medium/avenir-medium.eot?#iefix") format("embedded-opentype"), url("../fonts/medium/avenir-medium.woff") format("woff"), url("../fonts/medium/avenir-medium.ttf") format("truetype"), url("../fonts/medium/avenir-medium.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AvenirNextCyr-Thin';
+  src: url("../fonts/AvenirNextCyr-Thin.eot");
+  src: url("../fonts/AvenirNextCyr-Thin.eot?#iefix") format("embedded-opentype"), url("../fonts/AvenirNextCyr-Thin.woff") format("woff"), url("../fonts/AvenirNextCyr-Thin.ttf") format("truetype"), url("../fonts/AvenirNextCyr-Thin.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  }
+/*
+|^^^^^^^^^^^|______ EXAMPLE
+|____EXAMPLES_Code____|','''|'''''''''\____,, CAN WRITE
+|_______________| _|'____|____| HERE
+*'(@)'(@)'''''''|(@)(@)******|(@)*
+
+
+.class {
+    @include bounceIn();
+}
+
+@include {
+  image-2-x(
+  )
+}
+
+*/
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+/*================ START CUSTOM STLYES  ==================*/
+/* @include font-face(Samplino, fonts/Samplino);*/
+/*
+$medium: 'ConquerorSansMedium';
+$semi: '$$$$$$$SansSemiBold';
+$thin: 'Conqueror12312321Thin';
+$font-2: 'Roboto Slab';
+$serif: 'serif';*/
+/*===== DEFAULT FONT PROJECT =======*/
+/* ================= FONTS ============
+===================== WEB ================
+
+font-family: 'ConquerorSans';
+font-family: 'ConquerorSansLight';
+font-family: 'ConquerorSansMedium';
+font-family: 'ConquerorSansSemiBold;
+font-family: 'ConquerorSansThin';
+
+
+*/
+* {
+  font-family: 'AvenirNextCyr-Medium', sans-serif;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/*
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+$_____________________$__________________________$
+$____________________$$$_________________________$
+$__$_________________$$$________________$________$
+$___$$______________$$$$$_____________$$_________$
+$____$$$____________$$$$$___________$$$__________$
+$_____$$$$$_________$$$$$________$$$$$___________$
+$______$$$$$$$______$$$$$_____$$$$$$$____________$
+$________$$$$$$$____$$$$$___$$$$$$$______________$
+$___________$$$$$____$$$___$$$$$_________________$
+$__$$$$$$$______$$$__$$$__$$$______$$$$$$$_______$
+$______$$$$$$$$____$$_$_$$____$$$$$$$$___________$
+$__________$$$$$$$$$_$$$_$$$$$$$$$_______________$
+$_________________$$$_$_$$$______________________$
+$_____________$$$$$___$___$$$$$__________________$
+$_____________________$__________________________$
+$_____________________$__________________________$
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+*/
+/* ==========================================================================
+                          #NAV-MENU STYLE
+   ========================================================================== */
+.menu {
+   height:100%;
+   position: fixed;
+   width: 27%;
+   top: 0;
+   right:0;
+   background-color:#FFF;
+   padding-left:38px;
+ }
+
+
+
+.digital {
+  width: 73%;
+  height: 100%;
+  background: url('../images/slide-1.jpg');
+}
+
+.digital {
+
+}
+
+.digital .vcenter {
+  display: inline-block;
+  width: 100%;
+  height: 240px;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.digital .label-h {
+  color: #333;
+  font-size: 32px;
+  font-weight: 100;
+  line-height: 41px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 16px 0;
+  letter-spacing: 15.7px;
+    font-family: 'AvenirNextCyr-Thin', sans-serif;
+
+}
+.digital .company-name {
+  color: #333;
+  font-size: 84px;
+  font-weight: 300;
+  line-height: 78px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 20px 0;
+  letter-spacing: 7px;
+}
+.digital .watch-works  {
+  width: 263px;
+  height: 54px;
+  border: 1px solid #ff4440;
+  border-radius: 3px;
+  margin: auto;
+}
+.digital .watch-works a {
+  height: 100%;
+  color: #ff4440;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  width: 100%;
+  line-height: 50px;
+  -webkit-transition: all 0.3s ease;
+     -moz-transition: all 0.3s ease;
+      -ms-transition: all 0.3s ease;
+       -o-transition: all 0.3s ease;
+          transition: all 0.3s ease;
+}
+
+.digital .watch-works a:hover {
+  color:#FFF;
+  background-color:#ff4440;
+}
+.menu {
+}
+
+.menu .logo {
+  margin-top: 40px;
+}
+
+.menu .logo > a {
+}
+
+.menu .logo > a > img {
+}
+
+.menu .main-nav {
+}
+
+.menu .main-nav  ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.menu .main-nav  ul  li {
+}
+
+.menu .main-nav  ul  li  a {
+  color: black;
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 38px;
+  font-family: 'AvenirNextCyr-Demi', sans-serif;
+  text-decoration: none;
+  -webkit-transition: all .25s ease;
+     -moz-transition: all .25s ease;
+      -ms-transition: all .25s ease;
+       -o-transition: all .25s ease;
+          transition: all .25s ease;
+}
+
+.menu .main-nav  ul  li a:hover {color:#ff4440;}
+
+.menu .contacts {
+  bottom: 0;
+  position: absolute;
+  width: 215px;
+  padding-left: 22px;
+}
+
+.menu .contacts > hr {
+  background-color: #ff4440;
+  height: 2px;
+  border: 0;
+}
+
+.menu .contacts .number {
+  color: #333;
+  font-size: 20px;
+  line-height: 36px;
+  text-transform: uppercase;
+  font-family: 'AvenirNextCyr-Bold';
+}
+
+.menu .contacts .place {
+}
+
+.menu .contacts .city {
+  color: black;
+  font-size: 18px;
+  line-height: 18px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.menu .contacts .adress {
+  color: #bebebe;
+  font-size: 15px;
+  line-height: 22px;
+  margin-top: 0;
+}
+
+.menu .contacts .social-acc {
+}
+.menu .contacts .soc {
+  margin-right: 5px;
+  display: inline-block;
+}
+.menu .contacts .soc-1 {
+}
+.menu .contacts .soc-2 {
+}
+.menu .contacts .soc-3 {
+}
+
+
+/* #nav-menu CLOSING TAG */
+/* ==========================================================================
+                          MENU TENDINA STYLE
+   ========================================================================== */
+
+
+   .dropdown {
+     height: 100%;
+     width: 250px;
+     padding-top: 20px;
+ }
+     .dropdown li {
+       padding: 0 10px; }
+       .dropdown li.selected {
+
+        }
+        .dropdown li.multi > a {
+          position: relative;
+        }
+        .dropdown li.multi > a:after {
+          width: 11px;
+          content: "";
+          height: 6px;
+          background: url('../images/triangle.png');
+          background-repeat: no-repeat;
+          -webkit-background-size: cover;
+          background-size: cover;
+          position: absolute;
+          top:28px;
+          left:110px;
+
+        }
+        .dropdown li.multi.selected > a {
+          color: #ff4440;
+        }
+       .dropdown li a {
+         display: block;
+         width: 100%;
+         padding: 10px; }
+     .dropdown li > ul li {
+       padding: 0 20px; }
+/*        .dropdown li > ul li a {
+  color: gray; } */
+  .dropdown ul li ul li a {
+    color: #999;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+  }
+  .main-nav .dropdown li ul li a {
+    color: #999;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+  }
+       .dropdown li > ul li > ul li {
+         padding: 10px 30px; }
+
+/* ==========================================================================
+                          CONTENT STYLE
+   ========================================================================== */
+.digital {
+
+}

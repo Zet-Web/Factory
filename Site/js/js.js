@@ -22,7 +22,7 @@ $(window).resize(function(){
 
 
 
-/*
+
 function detectmob() {
     if( navigator.userAgent.match(/Android/i)
     || navigator.userAgent.match(/webOS/i)
@@ -84,4 +84,4 @@ function loadScript() {
     }
 
 window.onload = loadScript;
-*/
+
