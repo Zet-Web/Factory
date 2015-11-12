@@ -10,42 +10,13 @@
 /*===>! HTML5 Boilerplate v5.0 | MIT License |
 /* AUTHOR Zet-Web */
 
-/**
- *
- * MIXINS CSS3
- *
- */
-@import "partials/_mixins";
-@import "partials/css3-mixins";
-@import "partials/css3.scss";
-
-/**
- *
- * Import LIBS
- *
- */
-
-/**
- *
- * VARIABLES@charset "utf-8";
-
-/**
- * HTML5 Boilerplate v5.0 |
- * Block comment
- * MIT License
- * AUTHOR Zet-Web
- */
-
-/*===>! HTML5 Boilerplate v5.0 | MIT License |
-/* AUTHOR Zet-Web */
-
 // IMPORTS
 @import "compass";
 
 /**
  *
  * MIXINS CSS3
- *\
+ *
  */
 
 @import "partials/_mixins";
@@ -142,16 +113,17 @@ $url_43: url("../fonts/AvenirNextCyr-Thin.ttf");
 $url_44: url("../fonts/AvenirNextCyr-Thin.svg");
 $url_45: url("../images/slide-1.jpg");
 $url_46: url("../images/triangle.png");
-
-
-* {
-   -webkit-box-sizing: border-box;
+ {
+  -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           //Insteadofthelinebelowyoucoulduse@includebox-sizing($bs)box-sizing: border-box;
+}
+
+* {
   -webkit-box-sizing: inherit;
      -moz-box-sizing: inherit;
           //Insteadofthelinebelowyoucoulduse@includebox-sizing($bs)box-sizing: inherit;
-
+  font: ;
   -webkit-backface-visibility: hidden;
           //Insteadofthelinebelowyoucoulduse@includebackface-visibility($visibility)backface-visibility: hidden;
   //-moz-osx-font-smoothing: $grayscale;
@@ -472,7 +444,7 @@ $url_46: url("../images/triangle.png");
   background: #ff4440;
 
   h3 {
-    // @include fchar_text(144px, 100px, #FFFFFF, $semi);
+    @include fchar_text(144px, 100px, #FFFFFF, $semi);
     color: white;
     font-family: AvenirNextCyr;
     font-size: 144px;

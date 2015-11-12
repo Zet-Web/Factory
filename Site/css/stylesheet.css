@@ -1,3 +1,4 @@
+@charset "utf-8";
 
 @font-face {
   font-family: 'AvenirNextCyr-Bold';
@@ -162,7 +163,7 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 .menu {
    height:100%;
    position: fixed;
-   width: 23%;
+   width: 18%;
    top: 0;
    right:0;
    background-color:#FFF;
