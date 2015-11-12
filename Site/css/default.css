@@ -1,398 +1,44 @@
-/**
- * HTML5 Boilerplate v5.0 |
- * Block comment
- * MIT License
- * AUTHOR Zet-Web
- */
-/*===>! HTML5 Boilerplate v5.0 | MIT License |
-/* AUTHOR Zet-Web */
-/**
- *
- * MIXINS CSS3
- *
- */
-/* @include font-face(Samplino, fonts/Samplino);*/
-/* -------------------------------------------------------------
-  Sass CSS3 Mixins! The Cross-Browser CSS3 Sass Library
-  By: Matthieu Aussaguel, http://www.mynameismatthieu.com, @matthieu_tweets
-
-  List of CSS3 Sass Mixins File to be @imported and @included as you need
-
-  The purpose of this library is to facilitate the use of CSS3 on different browsers avoiding HARD TO READ and NEVER
-  ENDING css files
-
-  note: All CSS3 Properties are being supported by Safari 5
-  more info: http://www.findmebyip.com/litmus/#css3-properties
-
-  Mixins available:
-    -   css3-prefix             - arguments: Property, Value
-    -   background-gradient     - arguments: Start Color: #3C3C3C, End Color: #999999
-    -   background-horizontal   - arguments: Start Color: #3C3C3C, End Color: #999999
-    -   background-radial       - arguments: Start Color: #FFFFFF, Start position: 0%, End Color: #000000, End position: 100%
-    -   background-size         - arguments: Width: 100%, Height: 100%
-    -   background-opacity      - arguments: Color: #000, Opacity: .85
-    -   border-radius           - arguments: Radius: 5px
-    -   border-radius-separate  - arguments: Top Left: 5px, Top Right: 5px, Bottom Left: 5px, Bottom Right: 5px
-    -   box                     - arguments: Orientation: horizontal, Pack: center, Align: center
-    -   box-rgba                - arguments: R: 60, G: 3, B: 12, Opacity: 0.23, Color: #3C3C3C
-    -   box-shadow              - arguments: X: 2px, Y: 2px, Blur: 5px, Color: rgba(0,0,0,.4)
-    -   box-sizing              - arguments: Type: border-box
-    -   columns                 - arguments: Count: 3, Gap: 10
-    -   double-borders          - arguments: Color One: #3C3C3C, Color Two: #999999, Radius: 0
-    -   flex                    - arguments: Value: 1
-    -   flip                    - arguments: ScaleX: -1
-    -   font-face               - arguments: Font Family: myFont, Eot File Src: myFont.eot, Woff File Src: myFont.woff, Ttf File Src: myFont.ttf
-    -   opacity                 - arguments: Opacity: 0.5
-    -   outline radius          - arguments: Radius: 5px
-    -   resize                  - arguments: Direction: both
-    -   rotate                  - arguments: Degree: 0, M11: 0, M12: 0, M21: 0, M22: 0
-    CSS Matrix Rotation Calculator http://www.boogdesign.com/examples/transforms/matrix-calculator.html
-    -   text-shadow             - arguments: X: 2px, Y: 2px, Blur: 5px, Color: rgba(0,0,0,.4)
-    -   transform               - arguments: Parameters: null
-    -   transform-style         - arguments: Style: preserve-3d
-    -   transition              - Default arguments: What: all, Length: 1s, Easing: ease-in-out
-    -                            - Examples: @include transition (all 2s ease-in-out);
-    -                                        @include transition (opacity 1s ease-in 2s, width 2s ease-out);
-    -   triple-borders          - arguments: Color One: #3C3C3C, Color Two: #999999, Color Three: #000000, Radius: 0
-    -   keyframes               - arguments: Animation name
-                                - content:   Animation css
-    -   animation               - arguments: name duration timing-function delay iteration-count direction fill-mode play-state
-                                             (http://www.w3schools.com/cssref/css3_pr_animation.asp)
-
-------------------------------------------------------------- */
-/* ADDS A BROWSER PREFIX TO THE PROPERTY */
-/* BACKGROUND GRADIENT */
-/* BACKGROUND HORIZONTAL */
-/* BACKGROUND RADIAL */
-/* BACKGROUND SIZE */
-/* BACKGROUND COLOR OPACITY */
-/* BORDER RADIUS */
-/* BOX */
-/* BOX RGBA */
-/* BOX SHADOW */
-/* BOX SIZING */
-/* COLUMNS */
-/* DOUBLE BORDERS */
-/* FLEX */
-/* FLIP */
-/* FONT FACE */
-/* OPACITY */
-/* OUTLINE RADIUS */
-/* RESIZE */
-/* ROTATE*/
-/* TEXT SHADOW */
-/* TRANSFORM  */
-/* TRANSFORM STYLE */
-/* TRANSITION */
-/* TRIPLE BORDERS */
-/* KEYFRAMES */
-/* ANIMATION */
-/**
- *
- * Import LIBS
- *
- */
-/**
- *
- * VARIABLES
- *
- */
 /*
-|^^^^^^^^^^^|______ EXAMPLE
-|____EXAMPLES_Code____|','''|'''''''''\____
-|_______________| _|'____|____| HERE
-*'(@)'(@)'''''''|(@)(@)******|(@)*/
-/* line 129, ../sass/default.scss */
-html {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
+Error: Invalid CSS after "}": expected "}", was ""
+        on line 469 of L:/home/localhost/www/Factory/Site/sass/default.scss
 
-/* line 135, ../sass/default.scss */
-* {
-  -webkit-box-sizing: inherit;
-  -moz-box-sizing: inherit;
-  box-sizing: inherit;
-  font-family: "AvenirNextCyr-Medium", "sans-serif";
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-/* line 145, ../sass/default.scss */
-*:before {
-  -webkit-box-sizing: inherit;
-  -moz-box-sizing: inherit;
-  box-sizing: inherit;
-}
-/* line 151, ../sass/default.scss */
-*:after {
-  -webkit-box-sizing: inherit;
-  -moz-box-sizing: inherit;
-  box-sizing: inherit;
-}
+464: line-height: 36px;
+465:   p {
+466: 
+467:   }
+468:   div.label {}
+469: }
 
-/* line 159, ../sass/default.scss */
-.menu .logo {
-  margin-top: 40px;
-}
-/* line 164, ../sass/default.scss */
-.menu .contacts {
-  bottom: 0;
-  position: absolute;
-  width: 215px;
-  padding-left: 22px;
-}
-/* line 169, ../sass/default.scss */
-.menu .contacts > hr {
-  background-color: #ff4440;
-  height: 2px;
-  border: 0;
-}
-/* line 174, ../sass/default.scss */
-.menu .contacts .number {
-  color: #333;
-  font-size: 20px;
-  line-height: 36px;
-  text-transform: uppercase;
-  font-family: "AvenirNextCyr-Bold";
-}
-/* line 183, ../sass/default.scss */
-.menu .contacts .city {
-  color: black;
-  font-size: 18px;
-  line-height: 18px;
-  margin-top: 15px;
-  margin-bottom: 5px;
-}
-/* line 190, ../sass/default.scss */
-.menu .contacts .adress {
-  color: #bebebe;
-  font-size: 15px;
-  line-height: 22px;
-  margin-top: 0;
-}
-/* line 198, ../sass/default.scss */
-.menu .contacts .soc {
-  margin-right: 5px;
-  display: inline-block;
-}
-/* line 209, ../sass/default.scss */
-.menu .main-nav ul {
-  padding-left: 0;
-  list-style-type: none;
-}
-/* line 212, ../sass/default.scss */
-.menu .main-nav ul li a {
-  color: black;
-  font-size: 25px;
-  font-weight: 300;
-  line-height: 38px;
-  font-family: "AvenirNextCyr-Demi", "sans-serif";
-  text-decoration: none;
-  -webkit-transition: all .25s ease;
-  -moz-transition: all .25s ease;
-  -ms-transition: all .25s ease;
-  -o-transition: all .25s ease;
-  transition: all .25s ease;
-}
-/* line 225, ../sass/default.scss */
-.menu .main-nav ul li a:hover {
-  color: #ff4440;
-}
-
-/* line 232, ../sass/default.scss */
-.digital .vcenter {
-  display: inline-block;
-  width: 100%;
-  height: 240px;
-  position: relative;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-/* line 243, ../sass/default.scss */
-.digital .label-h {
-  color: #333;
-  font-size: 32px;
-  font-weight: 100;
-  line-height: 41px;
-  text-transform: uppercase;
-  text-align: center;
-  margin: 16px 0;
-  letter-spacing: 15.7px;
-  font-family: "AvenirNextCyr-Thin", "sans-serif";
-}
-/* line 254, ../sass/default.scss */
-.digital .company-name {
-  color: #333;
-  font-size: 84px;
-  font-weight: 300;
-  line-height: 78px;
-  text-transform: uppercase;
-  text-align: center;
-  margin: 20px 0;
-  letter-spacing: 7px;
-}
-/* line 264, ../sass/default.scss */
-.digital .watch-works {
-  width: 263px;
-  height: 54px;
-  border: 1px solid #ff4440;
-  border-radius: 3px;
-  margin: auto;
-}
-/* line 271, ../sass/default.scss */
-.digital .watch-works a {
-  height: 100%;
-  color: #ff4440;
-  font-size: 18px;
-  font-weight: 400;
-  text-decoration: none;
-  text-align: center;
-  display: block;
-  width: 100%;
-  line-height: 50px;
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -ms-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
-/* line 287, ../sass/default.scss */
-.digital .watch-works a:hover {
-  color: #fff;
-  background-color: #ff4440;
-}
-
-/* line 294, ../sass/default.scss */
-.dropdown {
-  height: 100%;
-  width: 250px;
-  padding-top: 20px;
-}
-/* line 298, ../sass/default.scss */
-.dropdown li {
-  padding: 0 10px;
-}
-/* line 303, ../sass/default.scss */
-.dropdown li.multi > a {
-  position: relative;
-}
-/* line 305, ../sass/default.scss */
-.dropdown li.multi > a:after {
-  width: 11px;
-  content: "";
-  height: 6px;
-  background: url("../images/triangle.png");
-  background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  background-size: cover;
-  position: absolute;
-  top: 28px;
-  left: 110px;
-}
-/* line 318, ../sass/default.scss */
-.dropdown li.multi.selected > a {
-  color: #ff4440;
-}
-/* line 322, ../sass/default.scss */
-.dropdown li a {
-  display: block;
-  width: 100%;
-  padding: 10px;
-}
-/* line 327, ../sass/default.scss */
-.dropdown li > ul li {
-  padding: 0 20px;
-}
-/* line 329, ../sass/default.scss */
-.dropdown li > ul li > ul li {
-  padding: 10px 30px;
-}
-/* line 334, ../sass/default.scss */
-.dropdown ul li ul li a {
-  color: #999;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 18px;
-}
-
-/* line 341, ../sass/default.scss */
-.main-nav .dropdown li ul li a {
-  color: #999;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 18px;
-}
-
-/* line 370, ../sass/default.scss */
-#cases {
-  content: "";
-  height: 100%;
-  width: 77%;
-}
-/* line 374, ../sass/default.scss */
-#cases .case {
-  filter: alpha(opacity=70);
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
-  -webkit-opacity: 0.7;
-  -khtml-opacity: 0.7;
-  -moz-opacity: 0.7;
-  -ms-opacity: 0.7;
-  -o-opacity: 0.7;
-  opacity: 0.7;
-  content: "";
-  background-color: #cbccd4;
-  content: "";
-  width: 100%;
-  position: relative;
-  height: 100%;
-}
-/* line 384, ../sass/default.scss */
-#cases .case.case-1 {
-  content: "";
-  background-image: url("../images/Layer 4.png");
-  background-repeat: no-repeat;
-  background-position: right center;
-}
-/* line 390, ../sass/default.scss */
-#cases .case .caption {
-  content: "";
-  color: black;
-  font-family: AvenirNextCyr;
-  font-size: 48px;
-  font-weight: 300;
-  line-height: 48px;
-  width: 530px;
-  position: absolute;
-  left: 70px;
-  top: 34%;
-}
-/* line 402, ../sass/default.scss */
-#cases .case .default {
-  content: "";
-  position: absolute;
-  left: 70px;
-  top: 55%;
-}
-/* line 408, ../sass/default.scss */
-#cases .case a {
-  content: "";
-}
-/* line 410, ../sass/default.scss */
-#cases .case a:hover {
-  content: "";
-}
-
-/* line 418, ../sass/default.scss */
-.map-inner {
-  width: 73%;
-  height: 100%;
-}
-
-/* line 422, ../sass/default.scss */
-#myMap {
-  width: 100%;
-  height: 100%;
-}
+Backtrace:
+L:/home/localhost/www/Factory/Site/sass/default.scss:469
+C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:1162:in `expected'
+C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:1098:in `expected'
+C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:1093:in `tok!'
+C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:640:in `block'
+C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:632:in `ruleset'
+C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:657:in `block_child'
+C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:650:in `block_contents'
+C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:117:in `stylesheet'
+C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:42:in `parse'
+C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/engine.rb:403:in `_to_tree'
+C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/engine.rb:278:in `render'
+C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/plugin/compiler.rb:209:in `each'
+C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/compass-1.0.3/lib/compass/sass_compiler.rb:40:in `compile!'
+C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/compass-1.0.3/lib/compass/commands/update_project.rb:49:in `perform'
+C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/compass-1.0.3/lib/compass/commands/base.rb:18:in `execute'
+C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/compass-1.0.3/lib/compass/commands/project_base.rb:19:in `execute'
+C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/compass-1.0.3/bin/compass:30:in `block in <top (required)>'
+C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/compass-1.0.3/bin/compass:44:in `call'
+C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/compass-1.0.3/bin/compass:44:in `<top (required)>'
+C:/tools/ruby21/bin/compass:23:in `load'
+C:/tools/ruby21/bin/compass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"}\": expected \"}\", was \"\"\A         on line 469 of L:/home/localhost/www/Factory/Site/sass/default.scss\A \A 464: line-height: 36px;\A 465:   p {\A 466: \A 467:   }\A 468:   div.label {}\A 469: }"; }
