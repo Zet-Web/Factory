@@ -3,7 +3,7 @@
  */
 /* line 8, ../../sass/partials/grid.scss */
 .grid {
-  margin-left: -20px;
+  /*margin-left: -20px;*/
   overflow: hidden;
 }
 /* line 9, ../../sass/partials/grid.scss */
@@ -21,8 +21,7 @@
   display: inline-block;
   vertical-align: top;
   width: 100%;
-  padding-left: 20px;
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 /* line 28, ../../sass/partials/grid.scss */

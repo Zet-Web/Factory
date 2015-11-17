@@ -192,26 +192,46 @@
       }
    }
 
-   .window{
+   .window {
       width:100%;
       height:100%;
       min-height: 100%;
+      padding-top: 1px;
+      position: relative;
       //      position:absolute;
       .row {
          height: 33%;
          position: relative;
       }
-   }
+      &:after{
+         @include opacity(0.4);
+         background: url("") #FFF no-repeat;
+         content: '';
+         display: block;
+         position: absolute;
+         height: 100%;
+         width: 100%;
+         left: 0;
+         top: 0;
+         @include transition(all 0.5s ease);
+         cursor: pointer;
+      }
+      &:hover:after{
+         @include opacity(0);
+      }
+   } /*window*/
 
 
-      #page-1 {
+        #page-1 {
          background: rgba(0, 0, 0, 0) url("../images/rocks.jpg") repeat scroll 0 0; background-size: cover;
       }
       #page-2 {background: rgba(0, 0, 0, 0) url("../images/Layer 7.jpg") repeat scroll 0 0;
-         background-size: cover;}
+         background-size: cover;
+         background-position: top center;
+      }
       #page-3 {background: rgba(0, 0, 0, 0) url("../images/Layer 10.jpg") repeat scroll 0 0;
-         background-size: 100%;
-         background-position: left;
+         background-size: cover;
+         background-position: top center;
          background-repeat: no-repeat;
       }
       #page-4 {background: rgba(0, 0, 0, 0) url("../images/Layer 13.png") repeat scroll 0 0;
@@ -239,7 +259,13 @@
 
 } //} digital
 .caption {
-   @include  char_text(72px, 90px, #ooo); height: auto;
+//   @include  char_text(72px, 90px, #ooo); height: auto;
+
+   color: black;
+   font-size: 48px;
+   font-weight: 300;
+   line-height: 60px;
+   margin: 0;
 }
 .dropdown {
    height: 100%;
@@ -248,7 +274,6 @@
 
    li {
       padding: 0 10px;
-
       &.selected {
       }
 
@@ -428,7 +453,8 @@
       @include vertical-align;
       .grid__item {
          height: 50%;
-
+         padding-left: 0;
+         border:1px solid #e3e3e3;
          .grid-content {
             height: 100%;
 
@@ -465,7 +491,9 @@
 //         font-family: AvenirNextCyr;
          font-size: 48px;
          font-weight: 300;
-         line-height: 18px;
+         line-height: 60px;
+         text-align: center;
+         margin: 0;
       }
    }
 }
@@ -518,3 +546,25 @@
    -webkit-transform: rotateY(-180deg);
    -moz-transform: rotateY(-180deg);
 }
+
+#content{
+   .row{
+      .title {
+         color: black;
+         font-size: 72px;
+         font-weight: 300;
+         line-height: 90px;
+         left: 5%;
+         position: absolute;
+         top: 110px;
+         z-index: 666;
+      }
+   }
+   #page-3 {
+      .caption {
+         bottom: 200px;
+         left: 100px;
+         position: absolute;
+      }
+   }
+} /*#content*/

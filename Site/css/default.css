@@ -14643,6 +14643,7 @@ margin-left: -15px;
   background-repeat: no-repeat;
   background-size: cover;
   width: 82%;
+  /*window*/
 }
 /* line 128, ../sass/default.scss */
 .digital .img-resp {
@@ -14714,35 +14715,75 @@ margin-left: -15px;
   width: 100%;
   height: 100%;
   min-height: 100%;
+  padding-top: 1px;
+  position: relative;
 }
-/* line 200, ../sass/default.scss */
+/* line 202, ../sass/default.scss */
 .digital .window .row {
   height: 33%;
   position: relative;
 }
-/* line 207, ../sass/default.scss */
+/* line 206, ../sass/default.scss */
+.digital .window:after {
+  filter: alpha(opacity=40);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+  -webkit-opacity: 0.4;
+  -khtml-opacity: 0.4;
+  -moz-opacity: 0.4;
+  -ms-opacity: 0.4;
+  -o-opacity: 0.4;
+  opacity: 0.4;
+  background: url("") #FFF no-repeat;
+  content: '';
+  display: block;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  -webkit-transition: all 0.5s ease;
+  -khtml-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+/* line 219, ../sass/default.scss */
+.digital .window:hover:after {
+  filter: alpha(opacity=0);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  -webkit-opacity: 0;
+  -khtml-opacity: 0;
+  -moz-opacity: 0;
+  -ms-opacity: 0;
+  -o-opacity: 0;
+  opacity: 0;
+}
+/* line 225, ../sass/default.scss */
 .digital #page-1 {
   background: transparent url("../images/rocks.jpg") repeat scroll 0 0;
   background-size: cover;
 }
-/* line 210, ../sass/default.scss */
+/* line 228, ../sass/default.scss */
 .digital #page-2 {
   background: transparent url("../images/Layer 7.jpg") repeat scroll 0 0;
   background-size: cover;
+  background-position: top center;
 }
-/* line 212, ../sass/default.scss */
+/* line 232, ../sass/default.scss */
 .digital #page-3 {
   background: transparent url("../images/Layer 10.jpg") repeat scroll 0 0;
-  background-size: 100%;
-  background-position: left;
+  background-size: cover;
+  background-position: top center;
   background-repeat: no-repeat;
 }
-/* line 217, ../sass/default.scss */
+/* line 237, ../sass/default.scss */
 .digital #page-4 {
   background: transparent url("../images/Layer 13.png") repeat scroll 0 0;
   background-size: cover;
 }
-/* line 221, ../sass/default.scss */
+/* line 241, ../sass/default.scss */
 .digital .row:after {
   filter: alpha(opacity=40);
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
@@ -14768,7 +14809,7 @@ margin-left: -15px;
   transition: all 0.5s ease;
   cursor: pointer;
 }
-/* line 235, ../sass/default.scss */
+/* line 255, ../sass/default.scss */
 .digital .row:hover:after {
   filter: alpha(opacity=0);
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
@@ -14780,29 +14821,30 @@ margin-left: -15px;
   opacity: 0;
 }
 
-/* line 241, ../sass/default.scss */
+/* line 261, ../sass/default.scss */
 .caption {
-  font-size: 72px;
-  line-height: 90px;
-  color: #ooo;
-  height: auto;
+  color: black;
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 60px;
+  margin: 0;
 }
 
-/* line 244, ../sass/default.scss */
+/* line 270, ../sass/default.scss */
 .dropdown {
   height: 100%;
   width: 250px;
   padding-top: 20px;
 }
-/* line 249, ../sass/default.scss */
+/* line 275, ../sass/default.scss */
 .dropdown li {
   padding: 0 10px;
 }
-/* line 256, ../sass/default.scss */
+/* line 281, ../sass/default.scss */
 .dropdown li.multi > a {
   position: relative;
 }
-/* line 259, ../sass/default.scss */
+/* line 284, ../sass/default.scss */
 .dropdown li.multi > a:after {
   width: 11px;
   content: "";
@@ -14815,25 +14857,25 @@ margin-left: -15px;
   top: 28px;
   left: 110px;
 }
-/* line 273, ../sass/default.scss */
+/* line 298, ../sass/default.scss */
 .dropdown li.multi.selected > a {
   color: #ff4440;
 }
-/* line 278, ../sass/default.scss */
+/* line 303, ../sass/default.scss */
 .dropdown li a {
   display: block;
   width: 100%;
   padding: 10px;
 }
-/* line 284, ../sass/default.scss */
+/* line 309, ../sass/default.scss */
 .dropdown li > ul li {
   padding: 0 20px;
 }
-/* line 287, ../sass/default.scss */
+/* line 312, ../sass/default.scss */
 .dropdown li > ul li > ul li {
   padding: 10px 30px;
 }
-/* line 293, ../sass/default.scss */
+/* line 318, ../sass/default.scss */
 .dropdown ul li ul li a {
   color: #999;
   font-size: 16px;
@@ -14841,7 +14883,7 @@ margin-left: -15px;
   line-height: 18px;
 }
 
-/* line 301, ../sass/default.scss */
+/* line 326, ../sass/default.scss */
 .main-nav .dropdown li ul li a {
   color: #999;
   font-size: 16px;
@@ -14849,7 +14891,7 @@ margin-left: -15px;
   line-height: 18px;
 }
 
-/* line 309, ../sass/default.scss */
+/* line 334, ../sass/default.scss */
 #cases .case {
   background-repeat: no-repeat;
   -webkit-transition: all 0.4s ease;
@@ -14859,22 +14901,22 @@ margin-left: -15px;
   -o-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
-/* line 324, ../sass/default.scss */
+/* line 349, ../sass/default.scss */
 #cases .case:hover {
   opacity: 1;
 }
-/* line 327, ../sass/default.scss */
+/* line 352, ../sass/default.scss */
 #cases .case:nth-of-type(2n+2) {
   background-position: left center;
 }
 
-/* line 333, ../sass/default.scss */
+/* line 358, ../sass/default.scss */
 #cases {
   content: "";
   height: 100%;
   width: 77%;
 }
-/* line 338, ../sass/default.scss */
+/* line 363, ../sass/default.scss */
 #cases .case {
   filter: alpha(opacity=70);
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
@@ -14891,14 +14933,14 @@ margin-left: -15px;
   position: relative;
   height: 100%;
 }
-/* line 347, ../sass/default.scss */
+/* line 372, ../sass/default.scss */
 #cases .case.case-1 {
   content: "";
   background-image: url("../images/Layer 4.png");
   background-repeat: no-repeat;
   background-position: right center;
 }
-/* line 354, ../sass/default.scss */
+/* line 379, ../sass/default.scss */
 #cases .case .caption {
   content: "";
   color: black;
@@ -14911,47 +14953,47 @@ margin-left: -15px;
   left: 70px;
   top: 34%;
 }
-/* line 367, ../sass/default.scss */
+/* line 392, ../sass/default.scss */
 #cases .case .default {
   content: "";
   position: absolute;
   left: 70px;
   top: 55%;
 }
-/* line 374, ../sass/default.scss */
+/* line 399, ../sass/default.scss */
 #cases .case a {
   content: "";
 }
-/* line 377, ../sass/default.scss */
+/* line 402, ../sass/default.scss */
 #cases .case a:hover {
   content: "";
 }
-/* line 384, ../sass/default.scss */
+/* line 409, ../sass/default.scss */
 #cases .case-2 {
   background-image: url("../images/Layer 4.png");
 }
-/* line 388, ../sass/default.scss */
+/* line 413, ../sass/default.scss */
 #cases .case-3 {
   background-image: url("../images/Layer 4.png");
 }
 
-/* line 394, ../sass/default.scss */
+/* line 419, ../sass/default.scss */
 .map-inner {
   width: 73%;
   height: 100%;
 }
 
-/* line 399, ../sass/default.scss */
+/* line 424, ../sass/default.scss */
 #myMap {
   width: 100%;
   height: 100%;
 }
 
-/* line 404, ../sass/default.scss */
+/* line 429, ../sass/default.scss */
 .about-tile {
   background: #ff4440;
 }
-/* line 407, ../sass/default.scss */
+/* line 432, ../sass/default.scss */
 .about-tile h3 {
   color: white;
   font-family: AvenirNextCyr;
@@ -14960,12 +15002,12 @@ margin-left: -15px;
   line-height: 36px;
 }
 
-/* line 423, ../sass/default.scss */
+/* line 448, ../sass/default.scss */
 .clients-row {
   height: 100%;
   min-height: 100%;
 }
-/* line 426, ../sass/default.scss */
+/* line 451, ../sass/default.scss */
 .clients-row .grid {
   height: 100%;
   position: relative;
@@ -14974,49 +15016,53 @@ margin-left: -15px;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-/* line 429, ../sass/default.scss */
+/* line 454, ../sass/default.scss */
 .clients-row .grid .grid__item {
   height: 50%;
+  padding-left: 0;
+  border: 1px solid #e3e3e3;
 }
-/* line 432, ../sass/default.scss */
+/* line 458, ../sass/default.scss */
 .clients-row .grid .grid__item .grid-content {
   height: 100%;
   /**/
 }
-/* line 436, ../sass/default.scss */
+/* line 462, ../sass/default.scss */
 .clients-row .grid .grid__item .grid-content .back {
   background: red;
   height: 100%;
   width: 100%;
 }
-/* line 441, ../sass/default.scss */
+/* line 467, ../sass/default.scss */
 .clients-row .grid .grid__item .grid-content .back h4 {
   font-size: 24px;
   line-height: 30px;
   color: #999;
 }
-/* line 445, ../sass/default.scss */
+/* line 471, ../sass/default.scss */
 .clients-row .grid .grid__item .grid-content .front {
   height: 100%;
   width: 100%;
 }
-/* line 460, ../sass/default.scss */
+/* line 486, ../sass/default.scss */
 .clients-row .header-container {
   background-color: #ff4e3c;
 }
-/* line 463, ../sass/default.scss */
+/* line 489, ../sass/default.scss */
 .clients-row .header-container h1 {
   color: white;
   font-size: 48px;
   font-weight: 300;
-  line-height: 18px;
+  line-height: 60px;
+  text-align: center;
+  margin: 0;
 }
 
 /*
 * FLIP
 * CARD
 */
-/* line 477, ../sass/default.scss */
+/* line 505, ../sass/default.scss */
 .valign {
   position: relative;
   top: 50%;
@@ -15025,20 +15071,20 @@ margin-left: -15px;
   transform: translateY(-50%);
 }
 
-/* line 481, ../sass/default.scss */
+/* line 509, ../sass/default.scss */
 .flip-container {
   margin: 0 auto;
   -webkit-perspective: 1000;
   -moz-perspective: 1000;
 }
 
-/* line 487, ../sass/default.scss */
+/* line 515, ../sass/default.scss */
 .flip-container:hover .flipper {
   -webkit-transform: rotateY(180deg);
   -moz-transform: rotateY(180deg);
 }
 
-/* line 492, ../sass/default.scss */
+/* line 520, ../sass/default.scss */
 .flipper {
   -webkit-transition: 0.6s;
   -webkit-transform-style: preserve-3d;
@@ -15047,7 +15093,7 @@ margin-left: -15px;
   position: relative;
 }
 
-/* line 500, ../sass/default.scss */
+/* line 528, ../sass/default.scss */
 .front, .back {
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
@@ -15056,13 +15102,33 @@ margin-left: -15px;
   left: 0;
 }
 
-/* line 509, ../sass/default.scss */
+/* line 537, ../sass/default.scss */
 .front {
   z-index: 1;
 }
 
-/* line 517, ../sass/default.scss */
+/* line 545, ../sass/default.scss */
 .back {
   -webkit-transform: rotateY(-180deg);
   -moz-transform: rotateY(-180deg);
 }
+
+/* line 552, ../sass/default.scss */
+#content .row .title {
+  color: black;
+  font-size: 72px;
+  font-weight: 300;
+  line-height: 90px;
+  left: 5%;
+  position: absolute;
+  top: 110px;
+  z-index: 666;
+}
+/* line 564, ../sass/default.scss */
+#content #page-3 .caption {
+  bottom: 200px;
+  left: 100px;
+  position: absolute;
+}
+
+/*#content*/
