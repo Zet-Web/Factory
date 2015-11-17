@@ -14564,24 +14564,29 @@ margin-left: -15px;
   box-sizing: border-box;
 }
 
-/* line 33, ../sass/default.scss */
+/* line 32, ../sass/default.scss */
+#content {
+  height: 100%;
+}
+
+/* line 36, ../sass/default.scss */
 .menu .logo {
   margin-top: 40px;
 }
-/* line 40, ../sass/default.scss */
+/* line 43, ../sass/default.scss */
 .menu .contacts {
   bottom: 0;
   position: absolute;
   width: 215px;
   padding-left: 22px;
 }
-/* line 46, ../sass/default.scss */
+/* line 49, ../sass/default.scss */
 .menu .contacts > hr {
   background-color: #ff4440;
   height: 2px;
   border: 0;
 }
-/* line 52, ../sass/default.scss */
+/* line 55, ../sass/default.scss */
 .menu .contacts .number {
   color: #333;
   font-size: 20px;
@@ -14589,7 +14594,7 @@ margin-left: -15px;
   text-transform: uppercase;
   font-family: "AvenirNextCyr-Bold";
 }
-/* line 63, ../sass/default.scss */
+/* line 66, ../sass/default.scss */
 .menu .contacts .city {
   color: black;
   font-size: 18px;
@@ -14597,24 +14602,24 @@ margin-left: -15px;
   margin-top: 15px;
   margin-bottom: 5px;
 }
-/* line 71, ../sass/default.scss */
+/* line 74, ../sass/default.scss */
 .menu .contacts .adress {
   color: #bebebe;
   font-size: 15px;
   line-height: 22px;
   margin-top: 0;
 }
-/* line 81, ../sass/default.scss */
+/* line 84, ../sass/default.scss */
 .menu .contacts .soc {
   margin-right: 5px;
   display: inline-block;
 }
-/* line 96, ../sass/default.scss */
+/* line 99, ../sass/default.scss */
 .menu .main-nav ul {
   padding-left: 0;
   list-style-type: none;
 }
-/* line 100, ../sass/default.scss */
+/* line 103, ../sass/default.scss */
 .menu .main-nav ul li a {
   color: black;
   font-size: 25px;
@@ -14627,16 +14632,23 @@ margin-left: -15px;
   -ms-transition: all .25s ease;
   -o-transition: all .25s ease;
 }
-/* line 113, ../sass/default.scss */
+/* line 116, ../sass/default.scss */
 .menu .main-nav ul li a:hover {
   color: #ff4440;
 }
 
-/* line 120, ../sass/default.scss */
+/* line 123, ../sass/default.scss */
 .digital {
   padding-top: 1px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 82%;
 }
-/* line 123, ../sass/default.scss */
+/* line 128, ../sass/default.scss */
+.digital .img-resp {
+  height: 100%;
+}
+/* line 131, ../sass/default.scss */
 .digital .vcenter {
   display: inline-block;
   width: 100%;
@@ -14646,7 +14658,7 @@ margin-left: -15px;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
 }
-/* line 134, ../sass/default.scss */
+/* line 142, ../sass/default.scss */
 .digital .label-h {
   color: #333;
   font-size: 32px;
@@ -14658,7 +14670,7 @@ margin-left: -15px;
   letter-spacing: 15.7px;
   font-family: "AvenirNextCyr-Thin", "sans-serif";
 }
-/* line 146, ../sass/default.scss */
+/* line 154, ../sass/default.scss */
 .digital .company-name {
   color: #333;
   font-size: 84px;
@@ -14669,14 +14681,14 @@ margin-left: -15px;
   margin: 20px 0;
   letter-spacing: 7px;
 }
-/* line 157, ../sass/default.scss */
+/* line 165, ../sass/default.scss */
 .digital .watch-works {
   width: 263px;
   height: 54px;
   border: 1px solid #ff4440;
   margin: auto;
 }
-/* line 164, ../sass/default.scss */
+/* line 172, ../sass/default.scss */
 .digital .watch-works a {
   height: 100%;
   color: #ff4440;
@@ -14692,27 +14704,105 @@ margin-left: -15px;
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
 }
-/* line 180, ../sass/default.scss */
+/* line 188, ../sass/default.scss */
 .digital .watch-works a:hover {
   color: #fff;
   background-color: #ff4440;
 }
+/* line 195, ../sass/default.scss */
+.digital .window {
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+}
+/* line 200, ../sass/default.scss */
+.digital .window .row {
+  height: 33%;
+  position: relative;
+}
+/* line 207, ../sass/default.scss */
+.digital #page-1 {
+  background: transparent url("../images/rocks.jpg") repeat scroll 0 0;
+  background-size: cover;
+}
+/* line 210, ../sass/default.scss */
+.digital #page-2 {
+  background: transparent url("../images/Layer 7.jpg") repeat scroll 0 0;
+  background-size: cover;
+}
+/* line 212, ../sass/default.scss */
+.digital #page-3 {
+  background: transparent url("../images/Layer 10.jpg") repeat scroll 0 0;
+  background-size: 100%;
+  background-position: left;
+  background-repeat: no-repeat;
+}
+/* line 217, ../sass/default.scss */
+.digital #page-4 {
+  background: transparent url("../images/Layer 13.png") repeat scroll 0 0;
+  background-size: cover;
+}
+/* line 221, ../sass/default.scss */
+.digital .row:after {
+  filter: alpha(opacity=40);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+  -webkit-opacity: 0.4;
+  -khtml-opacity: 0.4;
+  -moz-opacity: 0.4;
+  -ms-opacity: 0.4;
+  -o-opacity: 0.4;
+  opacity: 0.4;
+  background: url("") #FFF no-repeat;
+  content: '';
+  display: block;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  -webkit-transition: all 0.5s ease;
+  -khtml-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+/* line 235, ../sass/default.scss */
+.digital .row:hover:after {
+  filter: alpha(opacity=0);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  -webkit-opacity: 0;
+  -khtml-opacity: 0;
+  -moz-opacity: 0;
+  -ms-opacity: 0;
+  -o-opacity: 0;
+  opacity: 0;
+}
 
-/* line 188, ../sass/default.scss */
+/* line 241, ../sass/default.scss */
+.caption {
+  font-size: 72px;
+  line-height: 90px;
+  color: #ooo;
+  height: auto;
+}
+
+/* line 244, ../sass/default.scss */
 .dropdown {
   height: 100%;
   width: 250px;
   padding-top: 20px;
 }
-/* line 193, ../sass/default.scss */
+/* line 249, ../sass/default.scss */
 .dropdown li {
   padding: 0 10px;
 }
-/* line 200, ../sass/default.scss */
+/* line 256, ../sass/default.scss */
 .dropdown li.multi > a {
   position: relative;
 }
-/* line 203, ../sass/default.scss */
+/* line 259, ../sass/default.scss */
 .dropdown li.multi > a:after {
   width: 11px;
   content: "";
@@ -14725,25 +14815,25 @@ margin-left: -15px;
   top: 28px;
   left: 110px;
 }
-/* line 217, ../sass/default.scss */
+/* line 273, ../sass/default.scss */
 .dropdown li.multi.selected > a {
   color: #ff4440;
 }
-/* line 222, ../sass/default.scss */
+/* line 278, ../sass/default.scss */
 .dropdown li a {
   display: block;
   width: 100%;
   padding: 10px;
 }
-/* line 228, ../sass/default.scss */
+/* line 284, ../sass/default.scss */
 .dropdown li > ul li {
   padding: 0 20px;
 }
-/* line 231, ../sass/default.scss */
+/* line 287, ../sass/default.scss */
 .dropdown li > ul li > ul li {
   padding: 10px 30px;
 }
-/* line 237, ../sass/default.scss */
+/* line 293, ../sass/default.scss */
 .dropdown ul li ul li a {
   color: #999;
   font-size: 16px;
@@ -14751,7 +14841,7 @@ margin-left: -15px;
   line-height: 18px;
 }
 
-/* line 245, ../sass/default.scss */
+/* line 301, ../sass/default.scss */
 .main-nav .dropdown li ul li a {
   color: #999;
   font-size: 16px;
@@ -14759,7 +14849,7 @@ margin-left: -15px;
   line-height: 18px;
 }
 
-/* line 253, ../sass/default.scss */
+/* line 309, ../sass/default.scss */
 #cases .case {
   background-repeat: no-repeat;
   -webkit-transition: all 0.4s ease;
@@ -14769,22 +14859,22 @@ margin-left: -15px;
   -o-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
-/* line 268, ../sass/default.scss */
+/* line 324, ../sass/default.scss */
 #cases .case:hover {
   opacity: 1;
 }
-/* line 271, ../sass/default.scss */
+/* line 327, ../sass/default.scss */
 #cases .case:nth-of-type(2n+2) {
   background-position: left center;
 }
 
-/* line 277, ../sass/default.scss */
+/* line 333, ../sass/default.scss */
 #cases {
   content: "";
   height: 100%;
   width: 77%;
 }
-/* line 282, ../sass/default.scss */
+/* line 338, ../sass/default.scss */
 #cases .case {
   filter: alpha(opacity=70);
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
@@ -14801,14 +14891,14 @@ margin-left: -15px;
   position: relative;
   height: 100%;
 }
-/* line 291, ../sass/default.scss */
+/* line 347, ../sass/default.scss */
 #cases .case.case-1 {
   content: "";
   background-image: url("../images/Layer 4.png");
   background-repeat: no-repeat;
   background-position: right center;
 }
-/* line 298, ../sass/default.scss */
+/* line 354, ../sass/default.scss */
 #cases .case .caption {
   content: "";
   color: black;
@@ -14821,47 +14911,47 @@ margin-left: -15px;
   left: 70px;
   top: 34%;
 }
-/* line 311, ../sass/default.scss */
+/* line 367, ../sass/default.scss */
 #cases .case .default {
   content: "";
   position: absolute;
   left: 70px;
   top: 55%;
 }
-/* line 318, ../sass/default.scss */
+/* line 374, ../sass/default.scss */
 #cases .case a {
   content: "";
 }
-/* line 321, ../sass/default.scss */
+/* line 377, ../sass/default.scss */
 #cases .case a:hover {
   content: "";
 }
-/* line 328, ../sass/default.scss */
+/* line 384, ../sass/default.scss */
 #cases .case-2 {
   background-image: url("../images/Layer 4.png");
 }
-/* line 332, ../sass/default.scss */
+/* line 388, ../sass/default.scss */
 #cases .case-3 {
   background-image: url("../images/Layer 4.png");
 }
 
-/* line 338, ../sass/default.scss */
+/* line 394, ../sass/default.scss */
 .map-inner {
   width: 73%;
   height: 100%;
 }
 
-/* line 343, ../sass/default.scss */
+/* line 399, ../sass/default.scss */
 #myMap {
   width: 100%;
   height: 100%;
 }
 
-/* line 348, ../sass/default.scss */
+/* line 404, ../sass/default.scss */
 .about-tile {
   background: #ff4440;
 }
-/* line 351, ../sass/default.scss */
+/* line 407, ../sass/default.scss */
 .about-tile h3 {
   color: white;
   font-family: AvenirNextCyr;
@@ -14870,12 +14960,12 @@ margin-left: -15px;
   line-height: 36px;
 }
 
-/* line 367, ../sass/default.scss */
+/* line 423, ../sass/default.scss */
 .clients-row {
   height: 100%;
   min-height: 100%;
 }
-/* line 370, ../sass/default.scss */
+/* line 426, ../sass/default.scss */
 .clients-row .grid {
   height: 100%;
   position: relative;
@@ -14884,37 +14974,37 @@ margin-left: -15px;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-/* line 373, ../sass/default.scss */
+/* line 429, ../sass/default.scss */
 .clients-row .grid .grid__item {
   height: 50%;
 }
-/* line 376, ../sass/default.scss */
+/* line 432, ../sass/default.scss */
 .clients-row .grid .grid__item .grid-content {
   height: 100%;
   /**/
 }
-/* line 380, ../sass/default.scss */
+/* line 436, ../sass/default.scss */
 .clients-row .grid .grid__item .grid-content .back {
   background: red;
   height: 100%;
   width: 100%;
 }
-/* line 385, ../sass/default.scss */
+/* line 441, ../sass/default.scss */
 .clients-row .grid .grid__item .grid-content .back h4 {
   font-size: 24px;
   line-height: 30px;
   color: #999;
 }
-/* line 389, ../sass/default.scss */
+/* line 445, ../sass/default.scss */
 .clients-row .grid .grid__item .grid-content .front {
   height: 100%;
   width: 100%;
 }
-/* line 404, ../sass/default.scss */
+/* line 460, ../sass/default.scss */
 .clients-row .header-container {
   background-color: #ff4e3c;
 }
-/* line 407, ../sass/default.scss */
+/* line 463, ../sass/default.scss */
 .clients-row .header-container h1 {
   color: white;
   font-size: 48px;
@@ -14926,7 +15016,7 @@ margin-left: -15px;
 * FLIP
 * CARD
 */
-/* line 421, ../sass/default.scss */
+/* line 477, ../sass/default.scss */
 .valign {
   position: relative;
   top: 50%;
@@ -14935,20 +15025,20 @@ margin-left: -15px;
   transform: translateY(-50%);
 }
 
-/* line 425, ../sass/default.scss */
+/* line 481, ../sass/default.scss */
 .flip-container {
   margin: 0 auto;
   -webkit-perspective: 1000;
   -moz-perspective: 1000;
 }
 
-/* line 431, ../sass/default.scss */
+/* line 487, ../sass/default.scss */
 .flip-container:hover .flipper {
   -webkit-transform: rotateY(180deg);
   -moz-transform: rotateY(180deg);
 }
 
-/* line 436, ../sass/default.scss */
+/* line 492, ../sass/default.scss */
 .flipper {
   -webkit-transition: 0.6s;
   -webkit-transform-style: preserve-3d;
@@ -14957,7 +15047,7 @@ margin-left: -15px;
   position: relative;
 }
 
-/* line 444, ../sass/default.scss */
+/* line 500, ../sass/default.scss */
 .front, .back {
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
@@ -14966,12 +15056,12 @@ margin-left: -15px;
   left: 0;
 }
 
-/* line 453, ../sass/default.scss */
+/* line 509, ../sass/default.scss */
 .front {
   z-index: 1;
 }
 
-/* line 461, ../sass/default.scss */
+/* line 517, ../sass/default.scss */
 .back {
   -webkit-transform: rotateY(-180deg);
   -moz-transform: rotateY(-180deg);

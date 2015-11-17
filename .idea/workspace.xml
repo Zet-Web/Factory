@@ -5,243 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8dc9626f-c0ef-4dd9-8b39-041aa7e0ed26" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Site/sass/partials/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/compass_library.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Site/sass/partials/grid.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_attention-seekers\_bounce.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_attention-seekers\_flash.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_attention-seekers\_pulse.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_attention-seekers\_rubberBand.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_attention-seekers\_shake.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_attention-seekers\_swing.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_attention-seekers\_tada.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_attention-seekers\_wobble.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_attention-seekers\attention-seekers.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_bouncing-entrances\_bounceIn.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_bouncing-entrances\_bounceInDown.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_bouncing-entrances\_bounceInLeft.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_bouncing-entrances\_bounceInRight.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_bouncing-entrances\_bounceInUp.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_bouncing-entrances\bouncing-entrances.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_bouncing-exits\_bounceOut.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_bouncing-exits\_bounceOutDown.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_bouncing-exits\_bounceOutLeft.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_bouncing-exits\_bounceOutRight.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_bouncing-exits\_bounceOutUp.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_bouncing-exits\bouncing-exits.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_fading-entrances\_fadeIn.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_fading-entrances\_fadeInDown.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_fading-entrances\_fadeInDownBig.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_fading-entrances\_fadeInLeft.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_fading-entrances\_fadeInLeftBig.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_fading-entrances\_fadeInRight.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_fading-entrances\_fadeInRightBig.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_fading-entrances\_fadeInUp.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_fading-entrances\_fadeInUpBig.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_fading-entrances\fading-entrances.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_fading-exits\_fadeOut.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_fading-exits\_fadeOutDown.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_fading-exits\_fadeOutDownBig.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_fading-exits\_fadeOutLeft.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_fading-exits\_fadeOutLeftBig.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_fading-exits\_fadeOutRight.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_fading-exits\_fadeOutRightBig.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_fading-exits\_fadeOutUp.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_fading-exits\_fadeOutUpBig.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_fading-exits\fading-exits.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_flippers\_flip.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_flippers\_flipInX.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_flippers\_flipInY.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_flippers\_flipOutX.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_flippers\_flipOutY.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_flippers\flippers.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_lightspeed\_lightSpeedIn.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_lightspeed\_lightSpeedOut.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_lightspeed\lightspeed.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_properties.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_rotating-entrances\_rotateIn.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_rotating-entrances\_rotateInDownLeft.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_rotating-entrances\_rotateInDownRight.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_rotating-entrances\_rotateInUpLeft.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_rotating-entrances\_rotateInUpRight.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_rotating-entrances\rotating-entrances.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_rotating-exits\_rotateOut.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_rotating-exits\_rotateOutDownLeft.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_rotating-exits\_rotateOutDownRight.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_rotating-exits\_rotateOutUpLeft.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_rotating-exits\_rotateOutUpRight.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_rotating-exits\rotating-exits.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_sliding-entrances\_slideInDown.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_sliding-entrances\_slideInLeft.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_sliding-entrances\_slideInRight.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_sliding-entrances\_slideInUp.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_sliding-entrances\sliding-entrances.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_sliding-exits\_slideOutDown.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_sliding-exits\_slideOutLeft.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_sliding-exits\_slideOutRight.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_sliding-exits\_slideOutUp.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_sliding-exits\sliding-exits.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_specials\_hinge.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_specials\_rollIn.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_specials\_rollOut.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_specials\specials.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_zooming-entrances\_zoomIn.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_zooming-entrances\_zoomInDown.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_zooming-entrances\_zoomInLeft.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_zooming-entrances\_zoomInRight.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_zooming-entrances\_zoomInUp.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_zooming-entrances\zooming-entrances.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_zooming-exits\_zoomOut.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_zooming-exits\_zoomOutDown.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_zooming-exits\_zoomOutLeft.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_zooming-exits\_zoomOutRight.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_zooming-exits\_zoomOutUp.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\_zooming-exits\zooming-exits.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\animate\animate.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\default2.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\_hacks.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\_options.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\2d-transitions\_bob.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\2d-transitions\_bounce-in.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\2d-transitions\_bounce-out.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\2d-transitions\_buzz-out.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\2d-transitions\_buzz.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\2d-transitions\_float.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\2d-transitions\_grow-rotate.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\2d-transitions\_grow.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\2d-transitions\_hang.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\2d-transitions\_pop.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\2d-transitions\_pulse-grow.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\2d-transitions\_pulse-shrink.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\2d-transitions\_pulse.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\2d-transitions\_push.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\2d-transitions\_rotate.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\2d-transitions\_shrink.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\2d-transitions\_sink.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\2d-transitions\_skew-backward.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\2d-transitions\_skew-forward.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\2d-transitions\_skew.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\2d-transitions\_wobble-bottom.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\2d-transitions\_wobble-horizontal.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\2d-transitions\_wobble-skew.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\2d-transitions\_wobble-to-bottom-right.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\2d-transitions\_wobble-to-top-right.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\2d-transitions\_wobble-top.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\2d-transitions\_wobble-vertical.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\background-transitions\_back-pulse.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\background-transitions\_bounce-to-bottom.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\background-transitions\_bounce-to-left.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\background-transitions\_bounce-to-right.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\background-transitions\_bounce-to-top.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\background-transitions\_fade.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\background-transitions\_radial-in.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\background-transitions\_radial-out.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\background-transitions\_rectangle-in.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\background-transitions\_rectangle-out.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\background-transitions\_shutter-in-horizontal.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\background-transitions\_shutter-in-vertical.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\background-transitions\_shutter-out-horizontal.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\background-transitions\_shutter-out-vertical.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\background-transitions\_sweep-to-bottom.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\background-transitions\_sweep-to-left.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\background-transitions\_sweep-to-right.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\background-transitions\_sweep-to-top.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\border-transitions\_border-fade.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\border-transitions\_hollow.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\border-transitions\_outline-in.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\border-transitions\_outline-out.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\border-transitions\_overline-from-center.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\border-transitions\_overline-from-left.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\border-transitions\_overline-from-right.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\border-transitions\_overline-reveal.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\border-transitions\_reveal.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\border-transitions\_ripple-in.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\border-transitions\_ripple-out.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\border-transitions\_round-corners.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\border-transitions\_trim.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\border-transitions\_underline-from-center.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\border-transitions\_underline-from-left.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\border-transitions\_underline-from-right.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\border-transitions\_underline-reveal.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\curls\_curl-bottom-left.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\curls\_curl-bottom-right.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\curls\_curl-top-left.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\curls\_curl-top-right.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\icons\_icon-back.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\icons\_icon-bob.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\icons\_icon-bounce-out.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\icons\_icon-bounce.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\icons\_icon-buzz-out.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\icons\_icon-buzz.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\icons\_icon-down.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\icons\_icon-drop.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\icons\_icon-fade.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\icons\_icon-float-away.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\icons\_icon-float.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\icons\_icon-forward.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\icons\_icon-grow-rotate.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\icons\_icon-grow.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\icons\_icon-hang.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\icons\_icon-pop.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\icons\_icon-pulse-grow.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\icons\_icon-pulse-shrink.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\icons\_icon-pulse.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\icons\_icon-push.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\icons\_icon-rotate.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\icons\_icon-shrink.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\icons\_icon-sink-away.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\icons\_icon-sink.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\icons\_icon-spin.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\icons\_icon-up.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\icons\_icon-wobble-horizontal.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\icons\_icon-wobble-vertical.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\shadow-and-glow-transitions\_box-shadow-inset.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\shadow-and-glow-transitions\_box-shadow-outset.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\shadow-and-glow-transitions\_float-shadow.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\shadow-and-glow-transitions\_glow.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\shadow-and-glow-transitions\_grow-shadow.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\shadow-and-glow-transitions\_shadow-radial.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\shadow-and-glow-transitions\_shadow.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\speech-bubbles\_bubble-bottom.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\speech-bubbles\_bubble-float-bottom.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\speech-bubbles\_bubble-float-left.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\speech-bubbles\_bubble-float-right.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\speech-bubbles\_bubble-float-top.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\speech-bubbles\_bubble-left.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\speech-bubbles\_bubble-right.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\effects\speech-bubbles\_bubble-top.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\hover\hover.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\partials\_css3-mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\partials\_css3.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\css\partials\_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\f.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\index-haml.haml" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\index-haml.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\www\home\localhost\www\Factory\Site\sass\default2.scss" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Site/sass/partials/_mixins.scss" afterPath="$PROJECT_DIR$/Site/sass/partials/_mixins.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Site/css/animate/_attention-seekers/attention-seekers.css" afterPath="$PROJECT_DIR$/Site/css/animate/_attention-seekers/attention-seekers.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Site/css/animate/_bouncing-entrances/bouncing-entrances.css" afterPath="$PROJECT_DIR$/Site/css/animate/_bouncing-entrances/bouncing-entrances.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Site/css/animate/_bouncing-exits/bouncing-exits.css" afterPath="$PROJECT_DIR$/Site/css/animate/_bouncing-exits/bouncing-exits.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/cssxfire.xml" afterPath="$PROJECT_DIR$/.idea/cssxfire.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Site/css/default.css" afterPath="$PROJECT_DIR$/Site/css/default.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Site/sass/default.scss" afterPath="$PROJECT_DIR$/Site/sass/default.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Site/css/animate/_fading-entrances/fading-entrances.css" afterPath="$PROJECT_DIR$/Site/css/animate/_fading-entrances/fading-entrances.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Site/css/animate/_fading-exits/fading-exits.css" afterPath="$PROJECT_DIR$/Site/css/animate/_fading-exits/fading-exits.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Site/css/animate/_flippers/flippers.css" afterPath="$PROJECT_DIR$/Site/css/animate/_flippers/flippers.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Site/js/js.js" afterPath="$PROJECT_DIR$/Site/js/js.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Site/css/animate/_lightspeed/lightspeed.css" afterPath="$PROJECT_DIR$/Site/css/animate/_lightspeed/lightspeed.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Site/css/main.scss" afterPath="$PROJECT_DIR$/Site/css/main.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Site/sass/partials/grid.scss" afterPath="$PROJECT_DIR$/Site/sass/partials/grid.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Site/index.html" afterPath="$PROJECT_DIR$/Site/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Site/prepros.cfg" afterPath="$PROJECT_DIR$/Site/prepros.cfg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Site/css/animate/_rotating-entrances/rotating-entrances.css" afterPath="$PROJECT_DIR$/Site/css/animate/_rotating-entrances/rotating-entrances.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Site/css/animate/_rotating-exits/rotating-exits.css" afterPath="$PROJECT_DIR$/Site/css/animate/_rotating-exits/rotating-exits.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Site/css/animate/_sliding-entrances/sliding-entrances.css" afterPath="$PROJECT_DIR$/Site/css/animate/_sliding-entrances/sliding-entrances.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Site/css/animate/_sliding-exits/sliding-exits.css" afterPath="$PROJECT_DIR$/Site/css/animate/_sliding-exits/sliding-exits.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Site/css/animate/_specials/specials.css" afterPath="$PROJECT_DIR$/Site/css/animate/_specials/specials.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Site/css/animate/_zooming-entrances/zooming-entrances.css" afterPath="$PROJECT_DIR$/Site/css/animate/_zooming-entrances/zooming-entrances.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Site/css/animate/_zooming-exits/zooming-exits.css" afterPath="$PROJECT_DIR$/Site/css/animate/_zooming-exits/zooming-exits.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Site/css/stylesheet.css" afterPath="$PROJECT_DIR$/Site/css/stylesheet.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Factory.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -298,11 +69,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.61319745">
       <split-first>
         <leaf>
-          <file leaf-file-name="clients.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="clients.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Site/clients.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.2972973" vertical-offset="506" max-vertical-offset="4078">
-                  <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+                <state vertical-scroll-proportion="-11.538462" vertical-offset="580" max-vertical-offset="3791">
+                  <caret line="44" column="18" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
                   <folding />
                 </state>
               </provider>
@@ -311,7 +82,7 @@
           <file leaf-file-name="works.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Site/works.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-19.23077" vertical-offset="360" max-vertical-offset="2830">
+                <state vertical-scroll-proportion="0.0" vertical-offset="860" max-vertical-offset="2000">
                   <caret line="43" column="16" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="16" />
                   <folding />
                 </state>
@@ -321,18 +92,28 @@
           <file leaf-file-name="contacts.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Site/contacts.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.7692308" vertical-offset="360" max-vertical-offset="2590">
+                <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="1760">
                   <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Site/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-13.846154" vertical-offset="480" max-vertical-offset="2610">
-                  <caret line="42" column="2" selection-start-line="42" selection-start-column="2" selection-end-line="42" selection-end-column="2" />
+                <state vertical-scroll-proportion="0.33333334" vertical-offset="784" max-vertical-offset="3912">
+                  <caret line="45" column="19" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="19" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="default.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Site/css/default.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="300780" max-vertical-offset="302257">
+                  <caret line="15068" column="0" selection-start-line="15068" selection-start-column="0" selection-end-line="15068" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -345,12 +126,22 @@
           <file leaf-file-name="default.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Site/sass/default.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.48988765" vertical-offset="4924" max-vertical-offset="10330">
-                  <caret line="259" column="0" selection-start-line="259" selection-start-column="0" selection-end-line="259" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.8783626" vertical-offset="4837" max-vertical-offset="12559">
+                  <caret line="241" column="54" selection-start-line="241" selection-start-column="54" selection-end-line="241" selection-end-column="54" />
                   <folding>
-                    <marker date="1447658729013" expanded="true" signature="7499:7538" placeholder="..." />
-                    <marker date="1447658729013" expanded="true" signature="7755:7780" placeholder="..." />
+                    <marker date="1447728716524" expanded="true" signature="9003:9042" placeholder="..." />
+                    <marker date="1447728716524" expanded="true" signature="9259:9284" placeholder="..." />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="stylesheet.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Site/css/stylesheet.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="3928" max-vertical-offset="9801">
+                  <caret line="178" column="1" selection-start-line="178" selection-start-column="1" selection-end-line="178" selection-end-column="1" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -358,18 +149,8 @@
           <file leaf-file-name="grid.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Site/sass/partials/grid.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-14.461538" vertical-offset="1164" max-vertical-offset="2730">
-                  <caret line="77" column="6" selection-start-line="77" selection-start-column="6" selection-end-line="77" selection-end-column="6" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Site/sass/partials/_variables.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-16.153847" vertical-offset="1200" max-vertical-offset="2530">
-                  <caret line="81" column="38" selection-start-line="81" selection-start-column="38" selection-end-line="81" selection-end-column="38" />
+                <state vertical-scroll-proportion="-20.692308" vertical-offset="1362" max-vertical-offset="2748">
+                  <caret line="95" column="0" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -378,7 +159,7 @@
           <file leaf-file-name="css3.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Site/sass/partials/css3.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="19.576923" vertical-offset="1389" max-vertical-offset="14946">
+                <state vertical-scroll-proportion="0.0" vertical-offset="880" max-vertical-offset="14440">
                   <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
                   <folding />
                 </state>
@@ -388,7 +169,7 @@
           <file leaf-file-name="css3-mixins.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Site/sass/partials/css3-mixins.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-5.1923075" vertical-offset="1565" max-vertical-offset="6850">
+                <state vertical-scroll-proportion="0.0" vertical-offset="1700" max-vertical-offset="5760">
                   <caret line="85" column="58" selection-start-line="85" selection-start-column="55" selection-end-line="85" selection-end-column="58" />
                   <folding />
                 </state>
@@ -398,7 +179,7 @@
           <file leaf-file-name="_mixins.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Site/sass/partials/_mixins.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-17.5" vertical-offset="9825" max-vertical-offset="36150">
+                <state vertical-scroll-proportion="0.0" vertical-offset="10280" max-vertical-offset="35240">
                   <caret line="514" column="27" selection-start-line="514" selection-start-column="3" selection-end-line="514" selection-end-column="27" />
                   <folding />
                 </state>
@@ -408,8 +189,8 @@
           <file leaf-file-name="js.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Site/js/js.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2562">
-                  <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3034">
+                  <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
                   <folding />
                 </state>
               </provider>
@@ -436,9 +217,11 @@
         <option value="$PROJECT_DIR$/Site/css/main.scss" />
         <option value="$PROJECT_DIR$/Site/js/js.js" />
         <option value="$PROJECT_DIR$/Site/sass/partials/_mixins.scss" />
-        <option value="$PROJECT_DIR$/Site/sass/partials/grid.scss" />
         <option value="$PROJECT_DIR$/Site/clients.html" />
+        <option value="$PROJECT_DIR$/Site/css/stylesheet.css" />
+        <option value="$PROJECT_DIR$/Site/sass/partials/grid.scss" />
         <option value="$PROJECT_DIR$/Site/sass/default.scss" />
+        <option value="$PROJECT_DIR$/Site/index.html" />
       </list>
     </option>
   </component>
@@ -446,7 +229,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="41" />
-    <option name="width" value="1924" />
+    <option name="width" value="1931" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -475,6 +258,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ColorIdeProjectViewPane">
         <subPane>
           <PATH>
@@ -525,15 +309,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Factory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Factory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="options.lastSelected" value="preferences.keymap" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.File Status" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="SearchEverywhereHistoryKey" value="brac&#9;ACTION&#9;EditorMatchBrace&#10;file wat&#9;ACTION&#9;FileWatcher.runForFiles&#10;sea&#9;null&#9;null&#10;conso&#9;ACTION&#9;Jdbc.OpenConsole&#10;grun&#9;ACTION&#9;OpenGruntConsole" />
@@ -569,10 +370,15 @@
       <BehatRunner />
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <pass-parent-env-vars>false</pass-parent-env-vars>
+      <envs />
       <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="1">
@@ -618,13 +424,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="41" width="1924" height="1050" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="41" width="1931" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32944915" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32838982" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32838982" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Compare Directories" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Compare Directories" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -633,21 +438,22 @@
       <window_info id="SvgViewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32944915" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Copy/Paste" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CSS-X-Fire" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.19525625" sideWeight="0.52754235" order="9" side_tool="false" content_ui="tabs" x="1920" y="106" width="444" height="936" />
+      <window_info id="CSS-X-Fire" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.19525625" sideWeight="0.52754235" order="9" side_tool="false" content_ui="tabs" x="1951" y="128" width="371" height="936" />
       <window_info id="Code Review" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32838982" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32838982" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19488817" sideWeight="0.4713983" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19474249" sideWeight="0.4713983" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="eSnippet Pro" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32976446" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.08555697" sideWeight="0.58458245" order="0" side_tool="false" content_ui="combo" x="-489" y="61" width="482" height="586" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.08498129" sideWeight="0.58458245" order="0" side_tool="false" content_ui="combo" x="-489" y="61" width="482" height="586" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32944915" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gerrit" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32869378" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32838982" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Code Outline" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18070363" sideWeight="0.49946523" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Get Gist" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
     </layout>
@@ -673,57 +479,76 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Site/.sass-cache/446ca1be7a7c7726324d75f45d5ede0a7e11288c/_min.scssc">
+    <entry file="file://$PROJECT_DIR$/Site/clients.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9689119" vertical-offset="1140" max-vertical-offset="3239">
+        <state vertical-scroll-proportion="0.0" vertical-offset="700" max-vertical-offset="2960">
+          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Site/works.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="860" max-vertical-offset="2000">
+          <caret line="43" column="16" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Site/contacts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="1760">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Site/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="840" max-vertical-offset="1780">
+          <caret line="42" column="2" selection-start-line="42" selection-start-column="2" selection-end-line="42" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Site/sass/default.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9320">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1447728716524" expanded="true" signature="9003:9042" placeholder="..." />
+            <marker date="1447728716524" expanded="true" signature="9259:9284" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Site/css/main.scss">
+    <entry file="file://$PROJECT_DIR$/Site/sass/partials/grid.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7599309" vertical-offset="0" max-vertical-offset="5339">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Site/sass/partials/css3.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="19.576923" vertical-offset="1389" max-vertical-offset="15019">
-          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Site/js/js.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2562">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1540" max-vertical-offset="1900">
+          <caret line="77" column="6" selection-start-line="77" selection-start-column="6" selection-end-line="77" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Site/sass/partials/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.153847" vertical-offset="1200" max-vertical-offset="2219">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1620" max-vertical-offset="1700">
           <caret line="81" column="38" selection-start-line="81" selection-start-column="38" selection-end-line="81" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Site/sass/partials/grid.scss">
+    <entry file="file://$PROJECT_DIR$/Site/sass/partials/css3.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.461538" vertical-offset="1164" max-vertical-offset="2730">
-          <caret line="77" column="6" selection-start-line="77" selection-start-column="6" selection-end-line="77" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="880" max-vertical-offset="14440">
+          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Site/sass/partials/css3-mixins.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.1923075" vertical-offset="1565" max-vertical-offset="6850">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1700" max-vertical-offset="5760">
           <caret line="85" column="58" selection-start-line="85" selection-start-column="55" selection-end-line="85" selection-end-column="58" />
           <folding />
         </state>
@@ -731,23 +556,61 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Site/sass/partials/_mixins.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.5" vertical-offset="9825" max-vertical-offset="36150">
+        <state vertical-scroll-proportion="0.0" vertical-offset="10280" max-vertical-offset="35240">
           <caret line="514" column="27" selection-start-line="514" selection-start-column="3" selection-end-line="514" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Site/index.html">
+    <entry file="file://$PROJECT_DIR$/Site/js/js.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.846154" vertical-offset="480" max-vertical-offset="2610">
-          <caret line="42" column="2" selection-start-line="42" selection-start-column="2" selection-end-line="42" selection-end-column="2" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="140" max-vertical-offset="2120">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Site/.sass-cache/446ca1be7a7c7726324d75f45d5ede0a7e11288c/_min.scssc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9689119" vertical-offset="1140" max-vertical-offset="3239">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Site/css/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7599309" vertical-offset="0" max-vertical-offset="5339">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Site/sass/partials/css3.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="880" max-vertical-offset="14440">
+          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Site/sass/partials/css3-mixins.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1700" max-vertical-offset="5760">
+          <caret line="85" column="58" selection-start-line="85" selection-start-column="55" selection-end-line="85" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Site/sass/partials/_mixins.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="10280" max-vertical-offset="35240">
+          <caret line="514" column="27" selection-start-line="514" selection-start-column="3" selection-end-line="514" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Site/contacts.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7692308" vertical-offset="360" max-vertical-offset="2590">
+        <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="1760">
           <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
           <folding />
         </state>
@@ -755,27 +618,75 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Site/works.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.23077" vertical-offset="360" max-vertical-offset="2830">
+        <state vertical-scroll-proportion="0.0" vertical-offset="860" max-vertical-offset="2000">
           <caret line="43" column="16" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Site/clients.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.538462" vertical-offset="580" max-vertical-offset="3791">
+          <caret line="44" column="18" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Site/js/js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3034">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Site/css/stylesheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3928" max-vertical-offset="9801">
+          <caret line="178" column="1" selection-start-line="178" selection-start-column="1" selection-end-line="178" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Site/sass/partials/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5875576" vertical-offset="1110" max-vertical-offset="2508">
+          <caret line="81" column="38" selection-start-line="81" selection-start-column="38" selection-end-line="81" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Site/sass/partials/grid.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.692308" vertical-offset="1362" max-vertical-offset="2748">
+          <caret line="95" column="0" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Site/css/default.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="300780" max-vertical-offset="302257">
+          <caret line="15068" column="0" selection-start-line="15068" selection-start-column="0" selection-end-line="15068" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Site/sass/default.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48988765" vertical-offset="4924" max-vertical-offset="10330">
-          <caret line="259" column="0" selection-start-line="259" selection-start-column="0" selection-end-line="259" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.8783626" vertical-offset="4837" max-vertical-offset="12559">
+          <caret line="241" column="54" selection-start-line="241" selection-start-column="54" selection-end-line="241" selection-end-column="54" />
           <folding>
-            <marker date="1447658729013" expanded="true" signature="7499:7538" placeholder="..." />
-            <marker date="1447658729013" expanded="true" signature="7755:7780" placeholder="..." />
+            <marker date="1447728716524" expanded="true" signature="9003:9042" placeholder="..." />
+            <marker date="1447728716524" expanded="true" signature="9259:9284" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Site/clients.html">
+    <entry file="file://$PROJECT_DIR$/Site/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2972973" vertical-offset="506" max-vertical-offset="4078">
-          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="784" max-vertical-offset="3912">
+          <caret line="45" column="19" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="19" />
           <folding />
         </state>
       </provider>
