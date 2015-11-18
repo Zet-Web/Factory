@@ -17,14 +17,15 @@ $b: 20px;
 }
 
 .grid__item {
-   display: inline-block;
+   display: block;
    vertical-align: top;
    width: 100%;
    padding-left: $b;
    box-sizing: border-box;
+   float: left;
 }
 
-.grid--seperator {
+
    .grid__item {
       position: relative;
       &:before {
@@ -36,9 +37,8 @@ $b: 20px;
          width: 1px;
          background: #999;
       }
-   }
-}
 
+   }
 
 
 

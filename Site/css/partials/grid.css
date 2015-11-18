@@ -3,7 +3,7 @@
  */
 /* line 8, ../../sass/partials/grid.scss */
 .grid {
-  /*margin-left: -20px;*/
+  margin-left: -20px;
   overflow: hidden;
 }
 /* line 9, ../../sass/partials/grid.scss */
@@ -18,18 +18,20 @@
 
 /* line 19, ../../sass/partials/grid.scss */
 .grid__item {
-  display: inline-block;
+  display: block;
   vertical-align: top;
   width: 100%;
-    box-sizing: border-box;
+  padding-left: 20px;
+  box-sizing: border-box;
+  float: left;
 }
 
-/* line 28, ../../sass/partials/grid.scss */
-.grid--seperator .grid__item {
+/* line 29, ../../sass/partials/grid.scss */
+.grid__item {
   position: relative;
 }
-/* line 30, ../../sass/partials/grid.scss */
-.grid--seperator .grid__item:before {
+/* line 31, ../../sass/partials/grid.scss */
+.grid__item:before {
   content: '';
   position: absolute;
   top: 0;

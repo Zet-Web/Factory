@@ -32,6 +32,7 @@
 #content {
    height: 100%;
 }
+
 .menu {
    .logo {
       margin-top: 40px;
@@ -126,7 +127,8 @@
    background-size: cover;
    width: 82%;
    .img-resp {
-      height: 100%;
+      height: auto;
+      width: 100%;
    }
    .vcenter {
       display: inline-block;
@@ -136,6 +138,7 @@
       top: 50%;
       -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
+      z-index: 9999;
       //Insteadofthelinebelowyoucoulduse@includetransform($scale,$rotate,$transx,$transy,$skewx,$skewy,$originx,$originy)transform: translateY(-50%);
    }
 
@@ -168,6 +171,7 @@
       border: 1px solid $color_coral_red_approx;
       //Insteadofthelinebelowyoucoulduse@includeborder-radius($radius,$vertical-radius)border-radius: 3px;
       margin: auto;
+      z-index: 9999;
 
       a {
          height: 100%;
@@ -193,8 +197,8 @@
    }
 
    .window {
-      width:100%;
-      height:100%;
+      width: 100%;
+      height: 100%;
       min-height: 100%;
       padding-top: 1px;
       position: relative;
@@ -202,8 +206,14 @@
       .row {
          height: 33%;
          position: relative;
+         overflow: hidden;
+
       }
-      &:after{
+      //      #row-1{
+      //         background: url("../images/Layer 14.jpg");}
+      //      #row-2{}
+      //      #row-3{}
+      &:after {
          @include opacity(0.4);
          background: url("") #FFF no-repeat;
          content: '';
@@ -216,57 +226,86 @@
          @include transition(all 0.5s ease);
          cursor: pointer;
       }
-      &:hover:after{
+      &:hover:after {
          @include opacity(0);
       }
-   } /*window*/
-
-
-        #page-1 {
-         background: rgba(0, 0, 0, 0) url("../images/rocks.jpg") repeat scroll 0 0; background-size: cover;
+      .watch-works {
+         bottom: 100px;
+         left: 100px;
+         position: absolute;
       }
-      #page-2 {background: rgba(0, 0, 0, 0) url("../images/Layer 7.jpg") repeat scroll 0 0;
-         background-size: cover;
-         background-position: top center;
-      }
-      #page-3 {background: rgba(0, 0, 0, 0) url("../images/Layer 10.jpg") repeat scroll 0 0;
-         background-size: cover;
-         background-position: top center;
-         background-repeat: no-repeat;
-      }
-      #page-4 {background: rgba(0, 0, 0, 0) url("../images/Layer 13.png") repeat scroll 0 0;
-         background-size: cover;}
+   }
+   .shortcut-case{
 
-    .row {
-       &:after {
-          @include opacity(0.4);
-          background: url("") #FFF no-repeat;
-          content: '';
-          display: block;
-          position: absolute;
-          height: 100%;
-          width: 100%;
-          left: 0;
-          top: 0;
-          @include transition(all 0.5s ease);
-          //      @include pseudo-content("", url(""), rhgt plava_9)
-          cursor: pointer;
-       }
-          &:hover:after {
-             @include opacity(0);
-          }
-    }
+   }
+   /*window*/
 
-} //} digital
+   #page-1 {
+      background: rgba(0, 0, 0, 0) url("../images/rocks.jpg") repeat scroll 0 0;
+      background-size: cover;
+      .watch-works {
+         position: static;
+      }
+   }
+
+   #page-3 {
+      background: rgba(0, 0, 0, 0) url("../images/Layer 10.jpg") no-repeat scroll 0 0;
+      background-size: cover;
+      background-position: top center;
+      background-repeat: no-repeat;
+   }
+   #page-4 {
+      background: rgba(0, 0, 0, 0) url("../images/Layer 13.png") repeat scroll 0 0;
+      background-size: cover;
+   }
+   #page-5 {
+      background: rgba(0, 0, 0, 0) url("../images/Layer 7.jpg") repeat scroll 0 0;
+      background-size: cover;
+   }
+   #page-2.window:after {
+      display: none;
+   }
+
+   .row {
+      &:after {
+         @include opacity(0.4);
+         background: url("") #FFF no-repeat;
+         content: '';
+         display: block;
+         position: absolute;
+         height: 100%;
+         width: 100%;
+         left: 0;
+         top: 0;
+         @include transition(all 0.5s ease);
+         //      @include pseudo-content("", url(""), rhgt plava_9)
+         cursor: pointer;
+      }
+      &:hover:after {
+         @include opacity(0);
+      }
+   }
+
+}
+
+//} digital
 .caption {
-//   @include  char_text(72px, 90px, #ooo); height: auto;
+   //   @include  char_text(72px, 90px, #ooo); height: auto;
 
    color: black;
    font-size: 48px;
    font-weight: 300;
-   line-height: 60px;
+   line-height: 50px;
    margin: 0;
+   font-family: "AvenirNextCyr-Demi", "sans-serif";
 }
+#content .window .caption {
+   bottom: 200px;
+   left: 100px;
+   position: absolute;
+   width: 70%;
+}
+
 .dropdown {
    height: 100%;
    width: 250px;
@@ -335,7 +374,6 @@
       background-repeat: no-repeat;
       @include transition(all 0.4s ease);
 
-
       .caption {
       }
 
@@ -358,7 +396,7 @@
 #cases {
    content: "";
    height: 100%;
-   width: 77%;
+   width: 100%;
 
    .case {
       @include opacity(0.7);
@@ -405,7 +443,6 @@
       }
    }
 
-
    .case-2 {
       background-image: url("../images/Layer 4.png");
 
@@ -417,7 +454,7 @@
 }
 
 .map-inner {
-   width: 73%;
+   width: 100%;
    height: 100%;
 }
 
@@ -454,16 +491,15 @@
       .grid__item {
          height: 50%;
          padding-left: 0;
-         border:1px solid #e3e3e3;
+         border: 1px solid #e3e3e3;
+         overflow: hidden;
          .grid-content {
             height: 100%;
-
-            /**/
             .back {
                background: red;
                height: 100%;
                width: 100%;
-//               @include vertical-align;
+               display: none;
                h4 {
                   @include char_text(24px, 30px, #999);
                }
@@ -471,15 +507,72 @@
             .front {
                height: 100%;
                width: 100%;
-               //               @include vertical-align;
-               a {
-//                  display: block;
+            }
 
+         }
+         .back{
+            @include char_text(20px, 26px, #000);
+         }
+
+         .bg-image-1 {
+//            background: url("../images/layer-11.png") no-repeat center cover;
+            background: transparent url('../images/layer-11.png') 0 0 no-repeat;
+            background-size: cover;
+         }
+         .bg-image-2 {
+//            background: url("../images/layer-12.png") no-repeat center cover;
+            background: transparent url('../images/layer-12.png') 0 0 no-repeat;
+            background-size: cover;
+         }
+         .img-group {
+            cursor: pointer;
+            &:hover{
+               transform: scale(1.2);
+            }
+            @include transition(all 0.4s ease);
+         }
+
+      }
+      .service-ul {
+         .sub-title{
+            @include char_text(30px, 34px, #333333);
+            font-family: "AvenirNextCyr-Demi", "sans-serif";
+            padding-left: 25%;
+            text-align: left;
+         }
+         ul {
+            padding-left: 25%;
+            > li{
+               display: block;
+               list-style-type: circle;
+               color: red;
+               @include char_text(18px, 30px, #333333);
+               text-align: left;
+               padding-left: 12px;
+               position: relative;
+               a {
+                  @include char_text(18px, 30px, #333333);
+                  text-decoration: none;
+                  @include transition(all 0.5s ease);
+                  &:hover{
+                     color: #ff4440;
+                  }
+               }
+               &:after {
+                  position: absolute;
+                  content: "";
+                  width: 6px;
+                  height: 6px;
+                  background-color: #ff4440;
+                  display: inline-block;
+                  left: 0;
+                  top:15px;
+                  border-radius: 50%;
                }
             }
-//            .valign {
-//               height: 100%;
-//            }
+         }
+         .valign {
+            @include vertical-align;
          }
       }
    }
@@ -488,7 +581,7 @@
 
       h1 {
          color: white;
-//         font-family: AvenirNextCyr;
+         //         font-family: AvenirNextCyr;
          font-size: 48px;
          font-weight: 300;
          line-height: 60px;
@@ -547,8 +640,8 @@
    -moz-transform: rotateY(-180deg);
 }
 
-#content{
-   .row{
+#content {
+   .row {
       .title {
          color: black;
          font-size: 72px;
@@ -556,8 +649,9 @@
          line-height: 90px;
          left: 5%;
          position: absolute;
-         top: 110px;
+         top: 50%;
          z-index: 666;
+         margin-top: -40px;
       }
    }
    #page-3 {
@@ -565,6 +659,67 @@
          bottom: 200px;
          left: 100px;
          position: absolute;
+         width: 70%;
       }
    }
 } /*#content*/
+
+
+.digital.complex {
+   .label-h {
+      @include char_text(4em, 80px, #000);
+      letter-spacing: 0;
+
+      font-weight: 700;
+      text-transform: none;
+
+
+   }
+   .company-description{
+      @include char_text(30px, 36px, #8a8a8a);
+     text-align: center;
+      padding: 0 25%;
+      font-family: $font_3, sans-serif;
+   }
+   #complex-bg{
+      background: transparent url("../images/bg_complex.jpg") repeat scroll 0 0 / cover ;
+   }
+
+   .text-box{
+      .text-box-title {
+         text-align: center;
+         @include char_text(48px, 54px, #000000);
+         font-family: "AvenirNextCyr-Demi", "sans-serif";
+         margin: 60px auto;
+      }
+      .text-box-descr{
+         @include char_text(48px, 54px, #8a8a8a);
+         text-align: center;
+         padding: 0 6%;
+         font-family: $font_3, sans-serif;
+         padding-bottom: 60px;
+
+      }
+      &.white{
+         background-color: #ffffff;
+      }
+      &.gray{
+         background-color: #f8f8f8;
+      }
+      &.alpha-gray{
+         background-color: #ffffff;
+      }
+   }
+   .text-box{
+      padding-top: 1px;
+   }
+
+   .watch-works {
+      margin: 50px auto;
+      position: static;
+   }
+}
+
+.flip-container:hover .flipper .back {
+
+}

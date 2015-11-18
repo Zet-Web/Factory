@@ -59,12 +59,12 @@ var mob = detectmob();
 function initialize() {
     var styles = [ { "stylers": [ { saturation: -100 } ] } ];
     var styledMap = new google.maps.StyledMapType(styles,
-    {name: "Stirka.ru"});
+    {name: "Factory-group"});
 
-    var myLatlng = new google.maps.LatLng( 55.773230, 37.590044);
+    var myLatlng = new google.maps.LatLng( 55.812045, 37.834150);
 
     var mapOptions = {
-    zoom: 15,
+    zoom: 18,
     center: myLatlng,
     scrollwheel : false,
     draggable: (mob?false:true),
@@ -88,8 +88,8 @@ function initialize() {
     position: myLatlng,
     fillColor: "yellow",
     map: map,
-    title:"Stirka.ru",
-    icon: "images/icon-pins.png"
+    title:"Factory-group",
+    icon: "images/pins.png"
     })
     }
 function loadScript() {
