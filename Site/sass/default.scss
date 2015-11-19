@@ -17,6 +17,12 @@
 @import "animate/animate";
 @import "hover/hover";
 
+$break-small: 320px;
+$break-tablet: 768px;
+$break-medium: 1024px;
+$break-large: 1366px;
+$break-extra-large: 1920px;
+
 * {
    @include box-sizing(border-box);
 
@@ -31,8 +37,13 @@
 
 #content {
    height: 100%;
+   float: left;
 }
+.sidebar-right {
+   width: 18%;
+   float: right;
 
+}
 .menu {
    .logo {
       margin-top: 40px;
