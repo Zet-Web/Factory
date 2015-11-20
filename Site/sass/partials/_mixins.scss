@@ -3,6 +3,13 @@
   height: $height;
   }
 
+@mixin clearfix {
+   &:after {
+      content: "";
+      display: table;
+      clear: both;
+   }
+}
 
 
 @mixin char_text($font_size, $line-height, $color) {
