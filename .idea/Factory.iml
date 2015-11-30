@@ -11,7 +11,10 @@
     </option>
   </component>
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/Site/.sass-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/Site/css" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="compass-library" level="project" />

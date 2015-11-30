@@ -13,16 +13,29 @@
 @import "partials/_variables";
 @import "partials/_mixins";
 @import "partials/grid";
-@import "partials/css3-mixins";
-@import "animate/animate";
-@import "hover/hover";
+//@import "partials/css3-mixins";
+//@import "animate/animate";
+//@import "hover/hover";
+$base-default-size: 16px;
 
+
+html {
+  font-family: $browser-context;
+}
+
+//@include font-face(AvenirNextCyrRegular, ../fonts/AvenirNextCyr-Regular);
+@include font-face("AvenirNextCyr Regular", ./fonts/AvenirNextCyr-Regular/AvenirNextCyr-Regular, normal, normal);
 $break-small: 320px;
 $break-tablet: 768px;
 $break-medium: 1024px;
 $break-large: 1366px;
 $break-extra-large: 1920px;
 
+
+.container {
+   width:1024px;
+   margin: 0 auto;
+}
 * {
    @include box-sizing(border-box);
 
@@ -751,6 +764,8 @@ $transition: 1s;
          width: 70%;
       }
    }
+
+
 }
 
 /*#content*/
@@ -964,31 +979,74 @@ $transition: 1s;
       font-size: 30px;
       font-weight: 400;
       width: 722px;
-      margin: auto;
+      margin: 0 auto 30px;
       text-align: center;
    }
 
+   .item {
+      padding: 25px;
+   }
+
+   .buyers {
+      padding-top: 1px;
+      background: #FFF;
+      .title {
+         color: black;
+
+         font-size: 30px;
+         font-weight: 500;
+      }
+
+      .sub-title {
+         color: black;
+
+         font-size: 30px;
+         font-weight: 500;
+         text-align: center;
+      }
+      .descr {
+         color: #8a8a8a;
+         font-size: 30px;
+         font-weight: 400;
+         margin-top: 0;
+     
+      }
+   }
 
 } /*GARANTIES*/
 
-.row.sources {
-   .item {
-      width: 25%;
-      height: 528px;
-      background-color: white;
-      padding: 39px 18px 28px 39px ;
-      float: left;
-      margin: 0 45px;
-      p {
-         color: #999;
-         font-size: 18px;
-         font-weight: 400;
+
+#content {
+   .row.sources {
+      .item {
+         width: 25%;
+         height: 528px;
+         background-color: white;
+         padding: 39px 18px 28px 39px ;
+         float: left;
+         margin: 0 45px;
+         p {
+            color: #999;
+            font-size: 18px;
+            font-weight: 400;
+            margin-top: 0;
+         }
+
+      }
+      .grid__item .title {
+         color: black;
+         font-size: 30px;
+         font-weight: 500;
       }
 
-   }
-   .grid__item .title {
-      color: black;
-      font-size: 30px;
-      font-weight: 500;
+      .title {
+         color: #000000;
+         font-size: 30px;
+         font-weight: 300;
+         line-height: 40px;
+         margin-top: 0px;
+         position: static;
+         margin-bottom: 10px;
+      }
    }
 }
