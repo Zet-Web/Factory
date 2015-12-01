@@ -1,53 +1,1781 @@
+@charset "UTF-8";
+/**
+ * HTML5 Boilerplate v5.0 |
+ * Block comment
+ * MIT License
+ * AUTHOR Zet-Web
+ */
+/*===>! HTML5 Boilerplate v5.0 | MIT License |
+/* AUTHOR Zet-Web */
+/**
+ *
+ * VARIABLES
+ *
+ */
 /*
-Error: Invalid CSS after "...tCyr Regular", ": expected mixin argument, was "./fonts/AvenirN..."
-        on line 27 of C:/www/home/localhost/www/Factory/Site/sass/default.scss
+* *
+* * p {
+  font-size: 16px;
 
-22: html {
-23:   font-family: $browser-context;
-24: }
-25: 
-26: //@include font-face(AvenirNextCyrRegular, ../fonts/AvenirNextCyr-Regular);
-27: @include font-face("AvenirNextCyr Regular", ./fonts/AvenirNextCyr-Regular/AvenirNextCyr-Regular, normal, normal);
-28: $break-small: 320px;
-29: $break-tablet: 768px;
-30: $break-medium: 1024px;
-31: $break-large: 1366px;
-32: $break-extra-large: 1920px;
+  @include tablet {
+    font-size: 18px;
+  }
 
-Backtrace:
-C:/www/home/localhost/www/Factory/Site/sass/default.scss:27
-C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:1162:in `expected'
-C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/script/lexer.rb:221:in `expected!'
-C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/script/parser.rb:571:in `assert_expr'
-C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/script/parser.rb:487:in `block in arglist'
-C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/script/parser.rb:461:in `loop'
-C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/script/parser.rb:461:in `arglist'
-C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/script/parser.rb:450:in `mixin_arglist'
-C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/script/parser.rb:100:in `parse_mixin_include_arglist'
-C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:1024:in `sass_script'
-C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:236:in `include_directive'
-C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:219:in `special_directive'
-C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:194:in `directive'
-C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:657:in `block_child'
-C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:650:in `block_contents'
-C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:117:in `stylesheet'
-C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:42:in `parse'
-C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/engine.rb:403:in `_to_tree'
-C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/engine.rb:278:in `render'
-C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
-C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/plugin/compiler.rb:209:in `each'
-C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/plugin/compiler.rb:470:in `on_file_changed'
-C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.18/lib/sass/plugin/compiler.rb:328:in `block in watch'
-C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.18/vendor/listen/lib/listen/listener.rb:252:in `call'
-C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.18/vendor/listen/lib/listen/listener.rb:252:in `on_change'
-C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.18/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
-C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.18/vendor/listen/lib/listen/adapters/polling.rb:48:in `call'
-C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.18/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
-C:/tools/ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.18/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+  @include desktop {
+    font-size: 20px;
+  }
+}
+* *
+ */
+/* @include font-face(Samplino, fonts/Samplino);*/
+/* @include font-face(Samplino, fonts/Samplino);*/
+/**
+ * Pseudo Content Mixin
+ *
+ * Allows for easy pseudo elements
+ * @author Josh Frankel <josh@joshfrankel.me>
+ */
+/*
+
+.sidebar {
+  @include pseudo-content ('before', 'images/icon-twitter.png', 20px, 20px, 0 0 no-repeat);
+}
+
 */
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"...tCyr Regular\", \": expected mixin argument, was \"./fonts/AvenirN...\"\A         on line 27 of C:/www/home/localhost/www/Factory/Site/sass/default.scss\A \A 22: html {\A 23:   font-family: $browser-context;\A 24: }\A 25: \A 26: //@include font-face(AvenirNextCyrRegular, ../fonts/AvenirNextCyr-Regular);\A 27: @include font-face(\"AvenirNextCyr Regular\", ./fonts/AvenirNextCyr-Regular/AvenirNextCyr-Regular, normal, normal);\A 28: $break-small: 320px;\A 29: $break-tablet: 768px;\A 30: $break-medium: 1024px;\A 31: $break-large: 1366px;\A 32: $break-extra-large: 1920px;"; }
+/* The mixin creates both of these rules by being placed inside .sidebar */
+/* line 391, ../sass/partials/_mixins.scss */
+.pseudo-el-text {
+  position: relative;
+}
+
+/* The parent selector output */
+/* line 396, ../sass/partials/_mixins.scss */
+.pseudo-el:before {
+  background: url("") 0 0 no-repeat;
+  content: '';
+  display: inline-block;
+  position: absolute;
+  height: 20px;
+  width: 20px;
+}
+
+/*** Mixin For Colors ***/
+/*** Mixin For Button ***/
+/***
+@include button(15px 10px, #333333, #ffffff, 16px, bold, lighten(#333333,5%),10px);
+
+@include button(padding, bgcolor, font-color, font-size, font-weight, hover-color, borderradius);
+
+
+
+***/
+/*
+ * Letter spacing function declaration
+ *
+ * Function accepts a value and then calculates the letter-spacing in em units
+ *
+ * @author Josh Frankel <josh@joshfrankel.me>
+ */
+/* line 486, ../sass/partials/_mixins.scss */
+h1.test-letter {
+  letter-spacing: 0.05em;
+}
+
+/* The calculated letter spacing */
+/* line 492, ../sass/partials/_mixins.scss */
+h1.test-letter {
+  letter-spacing: 0.05em;
+}
+
+/**
+ * Flexible Images - ╨У╨╕╨▒╨║╨╕╨╡ ╨║╨░╤А╤В╨╕╨╜╨║╨╕
+ */
+/*
+.container img {
+  @extend %flexible-images;
+}
+.sidebar img {
+  @extend %flexible-images;
+}
+footer .menu img {
+  @extend %flexible-images;
+}
+*/
+/* All styles are combined since they all use the same placeholder */
+                                                                     /*
+
+.container img,
+.sidebar img,
+footer .menu img {
+  height:auto;
+  width: 100%;
+}
+*/
+/* All styles are combined since they all use the same placeholder */
+/* line 532, ../sass/partials/_mixins.scss */
+.image-one {
+  width: 100%;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* line 539, ../sass/partials/_mixins.scss */
+.image-one {
+  background-image: url("");
+}
+
+/* ╨Ч╨Р╨Я╨Ю╨Ы╨Э╨Ш╨в╨Х╨Ы╨м
+============================================= */
+/* line 548, ../sass/partials/_mixins.scss */
+.cta-btn, .main-btn, .info-btn {
+  padding: 10px;
+  color: #fff;
+  curser: pointer;
+  border: none;
+  shadow: none;
+  font-size: 14px;
+  width: 150px;
+  margin: 5px 0;
+  text-align: center;
+  display: block;
+}
+
+/* ╨Я╨а╨Ш╨Ь╨Х╨б╨м ╨Ъ╨Э╨Ю╨Я╨Ъ╨Ш
+============================================= */
+/* ╨Ъ╨Э╨Ю╨Я╨Ъ╨Ш
+============================================= */
+/* line 575, ../sass/partials/_mixins.scss */
+.cta-btn {
+  background-color: green;
+}
+/* line 567, ../sass/partials/_mixins.scss */
+.cta-btn:hover {
+  background-color: #00b300;
+}
+
+/* line 579, ../sass/partials/_mixins.scss */
+.main-btn {
+  background-color: orange;
+}
+/* line 567, ../sass/partials/_mixins.scss */
+.main-btn:hover {
+  background-color: #ffb733;
+}
+
+/* line 583, ../sass/partials/_mixins.scss */
+.info-btn {
+  background-color: blue;
+}
+/* line 567, ../sass/partials/_mixins.scss */
+.info-btn:hover {
+  background-color: #3333ff;
+}
+
+/*╨Т╤Л╤З╨╕╤Б╨╗╨╡╨╜╨╕╤П*/
+/* line 593, ../sass/partials/_mixins.scss */
+.span-two {
+  width: 50%;
+}
+
+/* line 597, ../sass/partials/_mixins.scss */
+.span-three {
+  width: 33.33333%;
+}
+
+/* Reset rem to 10-based instead of default browser 16 */
+/*html {
+  font-size: 62.5%;
+}*/
+/*
+  Photoshop does not apply line height to the first row, which CSS does. This creates all kinds of havock.
+  To calculate the correct offset for the first line we need the font-size and the lineheight, i.e:
+
+  @include line-height(22,30);
+
+  in Photoshop points/px (but with no unit)
+*/
+/* Letter spacing is simpler.. stolen from somewhere */
+/* font-size to rem with backup, stolen from somewhere */
+/* Mixin */
+/* Mixin VERTICAL ALIGN */
+/* line 647, ../sass/partials/_mixins.scss */
+.element p {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* Placeholder selector */
+/* line 652, ../sass/partials/_mixins.scss */
+.element p {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* MIXIN CENTERER ABSOLUTELY */
+/* line 711, ../sass/partials/_mixins.scss */
+.child {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateY(-50%, -50%);
+  -ms-transform: translateY(-50%, -50%);
+  transform: translateY(-50%, -50%);
+}
+
+/* line 715, ../sass/partials/_mixins.scss */
+.parent {
+  position: relative;
+  background: #f06d06;
+  width: 50%;
+  height: 200px;
+  margin: 20px auto;
+}
+
+/* line 741, ../sass/partials/_mixins.scss */
+.test-el {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+/*Another SCSS one with a different approach by Karl Merkli:
+@include rem-fallback(margin, 10, 20, 30, 40);
+*/
+/* @include rem-fallback(margin, 10, 20, 30, 40); */
+/*
+
+.arrow-right {
+  @include triangle(32px 24px, $purple, right);
+}
+
+
+.box-shadow {
+  width: 300px;
+  margin: 2em auto;
+  background-color: $gray;
+  box-shadow: 1px 1px 0 white;
+  color: #fff;
+  padding: 20px;
+  position: relative;
+
+  &:before {
+    content: '';
+    @include triangle(32px, white, down);
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -16px;
+  }
+
+  &:after {
+    content: '';
+    @include triangle(30px, $gray, down);
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -15px;
+  }
+}*/
+/*======= END TRIANGLE MIXIN ========*/
+/*Mixin ╨╛╨║╤А╤Г╨│╨╗╨╡╨╜╨╕╤П ╨▒╨╛╤А╨┤╤О╤А╨░*/
+/*MIXIN ╨Э╨░╨▓╨╡╨┤╨╡╨╜╨╕╨╡ ╨╜╨░ ╤Б╤Б╤Л╨╗╨║╨╕, hover active focus */
+/*Mixin Absolute Position*/
+/*Mixin ╨Ф╨╗╤П ╨▓╤Б╤В╨░╨▓╨║╨╕ REM ╨╡╨┤╨╕╨╜╨╕╤Ж╤Л Font-size*/
+/*MIXIN ╨Ф╨╗╤П Media Queries*/
+/*Mixin ╤Б╨║╤А╤Л╨▓╨░╨╡╤В ╤В╨╡╨║╤Б╤В Hide text*/
+/*Mixin Navigation List - ╨б╨┐╨╕╤Б╨╛╨║ ╨╜╨░╨▓╨╕╨│╨░╤Ж╨╕╨╕ ╨Я╤А╨╕╨╝╨╡╨╜╤П╨╡╤В╤Б╤П ╨┤╨╗╤П <UL>*/
+/*Hover Acive Focus*/
+/*** PADDING MIXIN***/
+/*** MARGIN MIXIN***/
+/*** LINK MIXIN***/
+/* .a {
+   @include size(100px, 100px);
+   @include char_text(16px, 20px, #FFF);
+   border: 1px solid #000;
+   background-color: #333333;
+   margin: 10px 0 0 10px;
+   padding: 10px 0 0 10px;
+   float:none;
+
+} */
+/* @include font-face(Samplino, fonts/Samplino);*/
+/**
+* Pseudo Content Mixin
+*
+* Allows for easy pseudo elements
+* @author Josh Frankel <josh@joshfrankel.me>
+*/
+/*
+
+.sidebar {
+@include pseudo-content ('before', 'images/icon-twitter.png', 20px, 20px, 0 0 no-repeat);
+}
+
+*/
+/* The mixin creates both of these rules by being placed inside .sidebar */
+/* line 1251, ../sass/partials/_mixins.scss */
+.pseudo-el-text {
+  position: relative;
+}
+
+/* The parent selector output */
+/* line 1256, ../sass/partials/_mixins.scss */
+.pseudo-el:before {
+  background: url("") 0 0 no-repeat;
+  content: '';
+  display: inline-block;
+  position: absolute;
+  height: 20px;
+  width: 20px;
+}
+
+/*** Mixin For Colors ***/
+/*** Mixin For Button ***/
+/***
+@include button(15px 10px, #333333, #ffffff, 16px, bold, lighten(#333333,5%),10px);
+
+@include button(padding, bgcolor, font-color, font-size, font-weight, hover-color, borderradius);
+
+
+
+***/
+/*
+* Letter spacing function declaration
+*
+* Function accepts a value and then calculates the letter-spacing in em units
+*
+* @author Josh Frankel <josh@joshfrankel.me>
+*/
+/* line 1346, ../sass/partials/_mixins.scss */
+h1.test-letter {
+  letter-spacing: 0.05em;
+}
+
+/* The calculated letter spacing */
+/* line 1352, ../sass/partials/_mixins.scss */
+h1.test-letter {
+  letter-spacing: 0.05em;
+}
+
+/**
+* Flexible Images - ╨У╨╕╨▒╨║╨╕╨╡ ╨║╨░╤А╤В╨╕╨╜╨║╨╕
+*/
+/*
+.container img {
+@extend %flexible-images;
+}
+.sidebar img {
+@extend %flexible-images;
+}
+footer .menu img {
+@extend %flexible-images;
+}
+*/
+/* All styles are combined since they all use the same placeholder */
+                                                                     /*
+
+.container img,
+.sidebar img,
+footer .menu img {
+height:auto;
+width: 100%;
+}
+*/
+/* All styles are combined since they all use the same placeholder */
+/* line 1392, ../sass/partials/_mixins.scss */
+.image-one {
+  width: 100%;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* line 1399, ../sass/partials/_mixins.scss */
+.image-one {
+  background-image: url("");
+}
+
+/* ╨Ч╨Р╨Я╨Ю╨Ы╨Э╨Ш╨в╨Х╨Ы╨м
+============================================= */
+/* line 1408, ../sass/partials/_mixins.scss */
+.cta-btn, .main-btn, .info-btn {
+  padding: 10px;
+  color: #fff;
+  curser: pointer;
+  border: none;
+  shadow: none;
+  font-size: 14px;
+  width: 150px;
+  margin: 5px 0;
+  text-align: center;
+  display: block;
+}
+
+/* ╨Я╨а╨Ш╨Ь╨Х╨б╨м ╨Ъ╨Э╨Ю╨Я╨Ъ╨Ш
+============================================= */
+/* ╨Ъ╨Э╨Ю╨Я╨Ъ╨Ш
+============================================= */
+/* line 1435, ../sass/partials/_mixins.scss */
+.cta-btn {
+  background-color: green;
+}
+/* line 1427, ../sass/partials/_mixins.scss */
+.cta-btn:hover {
+  background-color: #00b300;
+}
+
+/* line 1439, ../sass/partials/_mixins.scss */
+.main-btn {
+  background-color: orange;
+}
+/* line 1427, ../sass/partials/_mixins.scss */
+.main-btn:hover {
+  background-color: #ffb733;
+}
+
+/* line 1443, ../sass/partials/_mixins.scss */
+.info-btn {
+  background-color: blue;
+}
+/* line 1427, ../sass/partials/_mixins.scss */
+.info-btn:hover {
+  background-color: #3333ff;
+}
+
+/*╨Т╤Л╤З╨╕╤Б╨╗╨╡╨╜╨╕╤П*/
+/* line 1453, ../sass/partials/_mixins.scss */
+.span-two {
+  width: 50%;
+}
+
+/* line 1457, ../sass/partials/_mixins.scss */
+.span-three {
+  width: 33.33333%;
+}
+
+/* Reset rem to 10-based instead of default browser 16 */
+/*html {
+font-size: 62.5%;
+}*/
+/*
+Photoshop does not apply line height to the first row, which CSS does. This creates all kinds of havock.
+To calculate the correct offset for the first line we need the font-size and the lineheight, i.e:
+
+@include line-height(22,30);
+
+in Photoshop points/px (but with no unit)
+*/
+/* Letter spacing is simpler.. stolen from somewhere */
+/* font-size to rem with backup, stolen from somewhere */
+/* Mixin */
+/* Mixin VERTICAL ALIGN */
+/* line 1507, ../sass/partials/_mixins.scss */
+.element p {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* Placeholder selector */
+/* line 1512, ../sass/partials/_mixins.scss */
+.element p {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* MIXIN CENTERER ABSOLUTELY */
+/* line 1571, ../sass/partials/_mixins.scss */
+.child {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateY(-50%, -50%);
+  -ms-transform: translateY(-50%, -50%);
+  transform: translateY(-50%, -50%);
+}
+
+/* line 1575, ../sass/partials/_mixins.scss */
+.parent {
+  position: relative;
+  background: #f06d06;
+  width: 50%;
+  height: 200px;
+  margin: 20px auto;
+}
+
+/* line 1601, ../sass/partials/_mixins.scss */
+.test-el {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+/*Another SCSS one with a different approach by Karl Merkli:
+@include rem-fallback(margin, 10, 20, 30, 40);
+*/
+/* @include rem-fallback(margin, 10, 20, 30, 40); */
+/*
+
+.arrow-right {
+@include triangle(32px 24px, $purple, right);
+}
+
+
+.box-shadow {
+width: 300px;
+margin: 2em auto;
+background-color: $gray;
+box-shadow: 1px 1px 0 white;
+color: #fff;
+padding: 20px;
+position: relative;
+
+&:before {
+content: '';
+@include triangle(32px, white, down);
+position: absolute;
+top: 100%;
+left: 50%;
+margin-left: -16px;
+}
+
+&:after {
+content: '';
+@include triangle(30px, $gray, down);
+position: absolute;
+top: 100%;
+left: 50%;
+margin-left: -15px;
+}
+}*/
+/*======= END TRIANGLE MIXIN ========*/
+/*Mixin ╨╛╨║╤А╤Г╨│╨╗╨╡╨╜╨╕╤П ╨▒╨╛╤А╨┤╤О╤А╨░*/
+/*MIXIN ╨Э╨░╨▓╨╡╨┤╨╡╨╜╨╕╨╡ ╨╜╨░ ╤Б╤Б╤Л╨╗╨║╨╕, hover active focus */
+/*Mixin Absolute Position*/
+/*Mixin ╨Ф╨╗╤П ╨▓╤Б╤В╨░╨▓╨║╨╕ REM ╨╡╨┤╨╕╨╜╨╕╤Ж╤Л Font-size*/
+/*MIXIN ╨Ф╨╗╤П Media Queries*/
+/*Mixin ╤Б╨║╤А╤Л╨▓╨░╨╡╤В ╤В╨╡╨║╤Б╤В Hide text*/
+/*Mixin Navigation List - ╨б╨┐╨╕╤Б╨╛╨║ ╨╜╨░╨▓╨╕╨│╨░╤Ж╨╕╨╕ ╨Я╤А╨╕╨╝╨╡╨╜╤П╨╡╤В╤Б╤П ╨┤╨╗╤П <UL>*/
+/*Hover Acive Focus*/
+/*** PADDING MIXIN***/
+/*** MARGIN MIXIN***/
+/*** LINK MIXIN***/
+/* line 1884, ../sass/partials/_mixins.scss */
+.a {
+  width: 100px;
+  height: 100px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFF;
+  border: 1px solid #000;
+  background-color: #333333;
+  margin: 10px 0 0 10px;
+  padding: 10px 0 0 10px;
+  float: none;
+}
+
+/**
+ * Grid
+ */
+/* line 8, ../sass/partials/grid.scss */
+.grid {
+  margin-left: -20px;
+  overflow: hidden;
+}
+/* line 9, ../sass/partials/grid.scss */
+.grid:before, .grid:after {
+  content: " ";
+  display: table;
+}
+/* line 12, ../sass/partials/grid.scss */
+.grid:after {
+  clear: both;
+}
+
+/* line 19, ../sass/partials/grid.scss */
+.grid__item {
+  display: block;
+  vertical-align: top;
+  width: 100%;
+  padding-left: 20px;
+  box-sizing: border-box;
+  float: left;
+}
+
+/* line 29, ../sass/partials/grid.scss */
+.grid__item {
+  position: relative;
+}
+/* line 31, ../sass/partials/grid.scss */
+.grid__item:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: -10px;
+  width: 1px;
+  background: #999;
+}
+
+/**
+ * Widths
+ */
+/* line 51, ../sass/partials/grid.scss */
+.width--1of3 {
+  width: 33.3333%;
+}
+
+/* line 55, ../sass/partials/grid.scss */
+.width--1of2 {
+  width: 50%;
+}
+
+/* line 59, ../sass/partials/grid.scss */
+.width--1of4 {
+  width: 25%;
+}
+
+/**
+ * Grid content
+ */
+/* line 73, ../sass/partials/grid.scss */
+.grid-content {
+  line-height: 4em;
+  text-align: center;
+  overflow: hidden;
+  /**
+   * Nested items
+   */
+}
+/* line 81, ../sass/partials/grid.scss */
+.grid .grid .grid-content {
+  background: rgba(0, 0, 255, 0.4);
+  color: rgba(255, 255, 255, 0.8);
+}
+/* line 85, ../sass/partials/grid.scss */
+.grid .grid .grid .grid-content {
+  background: rgba(0, 0, 255, 0.5);
+}
+/* line 88, ../sass/partials/grid.scss */
+.grid .grid .grid .grid .grid-content {
+  background: rgba(0, 0, 255, 0.6);
+}
+/* line 91, ../sass/partials/grid.scss */
+.grid .grid .grid .grid .grid .grid-content {
+  background: rgba(0, 0, 255, 0.7);
+}
+
+/* line 22, ../sass/default.scss */
+html {
+  font-family: 16;
+}
+
+/* line 31, ../sass/default.scss */
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+/* line 35, ../sass/default.scss */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 38, ../sass/default.scss */
+*:before {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 42, ../sass/default.scss */
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 47, ../sass/default.scss */
+.title {
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+  margin: 35px 0;
+  text-align: center;
+}
+
+/* line 52, ../sass/default.scss */
+.text-center {
+  text-align: center;
+}
+
+/*
+*
+* CAROUSEL 3-D START
+*
+*/
+/* line 71, ../sass/default.scss */
+[data-carousel-3d] {
+  background: linear-gradient(0deg, #c8c8c8, #ffffff, #c8c8c8);
+  background: -ms-linear-gradient(0deg, #c8c8c8, white, #c8c8c8);
+  background: -moz-linear-gradient(0deg, #c8c8c8, white, #c8c8c8);
+  background: -webkit-linear-gradient(0deg, #c8c8c8, white, #c8c8c8);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eeeeee', endColorstr='#ffffff', GradientType=0);
+  -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eeeeee', endColorstr='#ffffff', GradientType=0);
+}
+
+/* line 81, ../sass/default.scss */
+[data-carousel-3d] {
+  border: 3px solid #e0e0e0;
+}
+
+/* line 88, ../sass/default.scss */
+[data-carousel-3d] [data-prev-button]:before {
+  content: url("./images/prev.png");
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 43px;
+  height: 49px;
+  margin: auto;
+}
+/* line 101, ../sass/default.scss */
+[data-carousel-3d] [data-next-button]:before {
+  content: url("./images/next.png");
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 43px;
+  height: 49px;
+  margin: auto;
+}
+
+/* line 115, ../sass/default.scss */
+[data-child-frame] {
+  border: 5px solid #ffffff;
+}
+
+/*КАРУСЕЛЬ-3D*/
+/* line 121, ../sass/default.scss */
+#content {
+  height: 100%;
+  float: left;
+}
+
+/* line 126, ../sass/default.scss */
+.sidebar-right {
+  width: 18%;
+  float: right;
+}
+
+/* line 133, ../sass/default.scss */
+.menu .logo {
+  margin-top: 40px;
+}
+/* line 140, ../sass/default.scss */
+.menu .contacts {
+  bottom: 0;
+  position: absolute;
+  width: 215px;
+  padding-left: 22px;
+}
+/* line 146, ../sass/default.scss */
+.menu .contacts > hr {
+  background-color: transparent;
+  height: 2px;
+  border: 0;
+}
+/* line 152, ../sass/default.scss */
+.menu .contacts .number {
+  color: #333;
+  font-size: 20px;
+  line-height: 36px;
+  text-transform: uppercase;
+  font-family: "AvenirNextCyr-Bold";
+}
+/* line 163, ../sass/default.scss */
+.menu .contacts .city {
+  color: black;
+  font-size: 18px;
+  line-height: 18px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+/* line 171, ../sass/default.scss */
+.menu .contacts .adress {
+  color: #bebebe;
+  font-size: 15px;
+  line-height: 22px;
+  margin-top: 0;
+}
+/* line 181, ../sass/default.scss */
+.menu .contacts .soc {
+  margin-right: 5px;
+  display: inline-block;
+}
+/* line 196, ../sass/default.scss */
+.menu .main-nav ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+/* line 200, ../sass/default.scss */
+.menu .main-nav ul li a {
+  color: black;
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 38px;
+  font-family: "AvenirNextCyr-Demi", "sans-serif";
+  text-decoration: none;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+}
+/* line 214, ../sass/default.scss */
+.menu .main-nav ul li a:hover {
+  color: #FFF;
+}
+
+/* line 221, ../sass/default.scss */
+.digital {
+  padding-top: 1px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 82%;
+  /*window*/
+}
+/* line 226, ../sass/default.scss */
+.digital .img-resp {
+  height: auto;
+  width: 100%;
+}
+/* line 230, ../sass/default.scss */
+.digital .vcenter {
+  display: inline-block;
+  width: 100%;
+  height: 240px;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  z-index: 9999;
+}
+/* line 242, ../sass/default.scss */
+.digital .label-h {
+  color: #333;
+  font-size: 32px;
+  font-weight: 100;
+  line-height: 41px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 16px 0;
+  letter-spacing: 15.7px;
+  font-family: "AvenirNextCyr-Thin", "sans-serif";
+}
+/* line 254, ../sass/default.scss */
+.digital .company-name {
+  color: #333;
+  font-size: 84px;
+  font-weight: 300;
+  line-height: 78px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 20px 0;
+  letter-spacing: 7px;
+}
+/* line 265, ../sass/default.scss */
+.digital .watch-works {
+  width: 263px;
+  height: 54px;
+  border: 1px solid #FFF;
+  margin: auto;
+  z-index: 9999;
+}
+/* line 273, ../sass/default.scss */
+.digital .watch-works a {
+  height: 100%;
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  width: 100%;
+  line-height: 50px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+/* line 289, ../sass/default.scss */
+.digital .watch-works a:hover {
+  color: #fff;
+  background-color: #FFF;
+}
+/* line 296, ../sass/default.scss */
+.digital .window {
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  padding-top: 1px;
+  position: relative;
+}
+/* line 303, ../sass/default.scss */
+.digital .window .row {
+  height: 33%;
+  position: relative;
+  overflow: hidden;
+}
+/* line 313, ../sass/default.scss */
+.digital .window:after {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=40);
+  opacity: 0.4;
+  background: url("") #FFF no-repeat;
+  content: '';
+  display: block;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+/* line 326, ../sass/default.scss */
+.digital .window:hover:after {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+}
+/* line 329, ../sass/default.scss */
+.digital .window .watch-works {
+  bottom: 100px;
+  left: 100px;
+  position: absolute;
+}
+/* line 340, ../sass/default.scss */
+.digital #page-1 {
+  background: transparent url("../images/rocks.jpg") repeat scroll 0 0;
+  background-size: cover;
+}
+/* line 343, ../sass/default.scss */
+.digital #page-1 .watch-works {
+  position: static;
+}
+/* line 348, ../sass/default.scss */
+.digital #page-3 {
+  background: transparent url("../images/Layer 10.jpg") no-repeat scroll 0 0;
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+/* line 354, ../sass/default.scss */
+.digital #page-4 {
+  background: transparent url("../images/Layer 13.png") repeat scroll 0 0;
+  background-size: cover;
+}
+/* line 358, ../sass/default.scss */
+.digital #page-5 {
+  background: transparent url("../images/Layer 7.jpg") repeat scroll 0 0;
+  background-size: cover;
+}
+/* line 362, ../sass/default.scss */
+.digital #page-2.window:after {
+  display: none;
+}
+/* line 367, ../sass/default.scss */
+.digital .row:after {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=40);
+  opacity: 0.4;
+  background: url("") #FFF no-repeat;
+  content: '';
+  display: block;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+/* line 381, ../sass/default.scss */
+.digital .row:hover:after {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+}
+
+/* line 389, ../sass/default.scss */
+.caption {
+  color: black;
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 50px;
+  margin: 0;
+  font-family: "AvenirNextCyr-Demi", "sans-serif";
+}
+
+/* line 400, ../sass/default.scss */
+#content .window .caption {
+  bottom: 200px;
+  left: 100px;
+  position: absolute;
+  width: 70%;
+}
+
+/* line 407, ../sass/default.scss */
+.dropdown {
+  height: 100%;
+  width: 250px;
+  padding-top: 20px;
+}
+/* line 412, ../sass/default.scss */
+.dropdown li {
+  padding: 0 10px;
+}
+/* line 418, ../sass/default.scss */
+.dropdown li.multi > a {
+  position: relative;
+}
+/* line 421, ../sass/default.scss */
+.dropdown li.multi > a:after {
+  width: 11px;
+  content: "";
+  height: 6px;
+  background: url("../images/slide-2.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  position: absolute;
+  top: 28px;
+  left: 110px;
+}
+/* line 435, ../sass/default.scss */
+.dropdown li.multi.selected > a {
+  color: #FFF;
+}
+/* line 440, ../sass/default.scss */
+.dropdown li a {
+  display: block;
+  width: 100%;
+  padding: 10px;
+}
+/* line 446, ../sass/default.scss */
+.dropdown li > ul li {
+  padding: 0 20px;
+}
+/* line 449, ../sass/default.scss */
+.dropdown li > ul li > ul li {
+  padding: 10px 30px;
+}
+/* line 455, ../sass/default.scss */
+.dropdown ul li ul li a {
+  color: #999;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+/* line 463, ../sass/default.scss */
+.main-nav .dropdown li ul li a {
+  color: #999;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+/* line 471, ../sass/default.scss */
+#cases .case {
+  background-repeat: no-repeat;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+/* line 485, ../sass/default.scss */
+#cases .case:hover {
+  opacity: 1;
+}
+/* line 488, ../sass/default.scss */
+#cases .case:nth-of-type(2n+2) {
+  background-position: left center;
+}
+
+/* line 494, ../sass/default.scss */
+#cases {
+  content: "";
+  height: 100%;
+  width: 100%;
+}
+/* line 499, ../sass/default.scss */
+#cases .case {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  opacity: 0.7;
+  content: "";
+  background-color: #cbccd4;
+  content: "";
+  width: 100%;
+  position: relative;
+  height: 100%;
+}
+/* line 508, ../sass/default.scss */
+#cases .case.case-1 {
+  content: "";
+  background-image: url("../images/Layer 4.png");
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+/* line 515, ../sass/default.scss */
+#cases .case .caption {
+  content: "";
+  color: black;
+  font-family: AvenirNextCyr;
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 48px;
+  width: 530px;
+  position: absolute;
+  left: 70px;
+  top: 34%;
+}
+/* line 528, ../sass/default.scss */
+#cases .case .default {
+  content: "";
+  position: absolute;
+  left: 70px;
+  top: 55%;
+}
+/* line 535, ../sass/default.scss */
+#cases .case a {
+  content: "";
+}
+/* line 538, ../sass/default.scss */
+#cases .case a:hover {
+  content: "";
+}
+/* line 544, ../sass/default.scss */
+#cases .case-2 {
+  background-image: url("../images/Layer 4.png");
+}
+/* line 548, ../sass/default.scss */
+#cases .case-3 {
+  background-image: url("../images/Layer 4.png");
+}
+
+/* line 554, ../sass/default.scss */
+.map-inner {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 559, ../sass/default.scss */
+#myMap {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 564, ../sass/default.scss */
+.about-tile {
+  background: #ff4440;
+}
+/* line 567, ../sass/default.scss */
+.about-tile h3 {
+  color: white;
+  font-family: AvenirNextCyr;
+  font-size: 144px;
+  font-weight: 300;
+  line-height: 36px;
+}
+
+/* line 583, ../sass/default.scss */
+.clients-row {
+  height: 100%;
+  min-height: 100%;
+}
+/* line 586, ../sass/default.scss */
+.clients-row .grid {
+  height: 100%;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+/* line 589, ../sass/default.scss */
+.clients-row .grid .grid__item {
+  height: 50%;
+  padding-left: 0;
+  border: 1px solid #e3e3e3;
+  overflow: hidden;
+}
+/* line 594, ../sass/default.scss */
+.clients-row .grid .grid__item .grid-content {
+  height: 100%;
+}
+/* line 596, ../sass/default.scss */
+.clients-row .grid .grid__item .grid-content .back {
+  background: red;
+  height: 100%;
+  width: 100%;
+  display: none;
+}
+/* line 601, ../sass/default.scss */
+.clients-row .grid .grid__item .grid-content .back h4 {
+  font-size: 24px;
+  line-height: 30px;
+  color: #999;
+}
+/* line 605, ../sass/default.scss */
+.clients-row .grid .grid__item .grid-content .front {
+  height: 100%;
+  width: 100%;
+}
+/* line 611, ../sass/default.scss */
+.clients-row .grid .grid__item .back {
+  font-size: 20px;
+  line-height: 26px;
+  color: #000;
+}
+/* line 615, ../sass/default.scss */
+.clients-row .grid .grid__item .bg-image-1 {
+  background: transparent url("../images/layer-11.png") 0 0 no-repeat;
+  background-size: cover;
+}
+/* line 620, ../sass/default.scss */
+.clients-row .grid .grid__item .bg-image-2 {
+  background: transparent url("../images/layer-12.png") 0 0 no-repeat;
+  background-size: cover;
+}
+/* line 625, ../sass/default.scss */
+.clients-row .grid .grid__item .img-group {
+  cursor: pointer;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+/* line 627, ../sass/default.scss */
+.clients-row .grid .grid__item .img-group:hover {
+  transform: scale(1.2);
+}
+/* line 635, ../sass/default.scss */
+.clients-row .grid .service-ul .sub-title {
+  font-size: 30px;
+  line-height: 34px;
+  color: #333333;
+  font-family: "AvenirNextCyr-Demi", "sans-serif";
+  padding-left: 25%;
+  text-align: left;
+}
+/* line 641, ../sass/default.scss */
+.clients-row .grid .service-ul ul {
+  padding-left: 25%;
+}
+/* line 643, ../sass/default.scss */
+.clients-row .grid .service-ul ul > li {
+  display: block;
+  list-style-type: circle;
+  color: red;
+  font-size: 18px;
+  line-height: 30px;
+  color: #333333;
+  text-align: left;
+  padding-left: 12px;
+  position: relative;
+}
+/* line 651, ../sass/default.scss */
+.clients-row .grid .service-ul ul > li a {
+  font-size: 18px;
+  line-height: 30px;
+  color: #333333;
+  text-decoration: none;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+/* line 655, ../sass/default.scss */
+.clients-row .grid .service-ul ul > li a:hover {
+  color: #ff4440;
+}
+/* line 659, ../sass/default.scss */
+.clients-row .grid .service-ul ul > li:after {
+  position: absolute;
+  content: "";
+  width: 6px;
+  height: 6px;
+  background-color: #ff4440;
+  display: inline-block;
+  left: 0;
+  top: 15px;
+  border-radius: 50%;
+}
+/* line 672, ../sass/default.scss */
+.clients-row .grid .service-ul .valign {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+/* line 677, ../sass/default.scss */
+.clients-row .header-container {
+  background-color: #ff4e3c;
+}
+/* line 680, ../sass/default.scss */
+.clients-row .header-container h1 {
+  color: white;
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 60px;
+  text-align: center;
+  margin: 0;
+}
+
+/*
+* FLIP
+* CARD
+*/
+/* line 696, ../sass/default.scss */
+.valign {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* line 700, ../sass/default.scss */
+.flip-container {
+  margin: 0 auto;
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000;
+}
+
+/* line 706, ../sass/default.scss */
+.flip-container:hover .flipper {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+}
+
+/* line 711, ../sass/default.scss */
+.flipper {
+  -webkit-transition: 0.6s;
+  -webkit-transform-style: preserve-3d;
+  -moz-transition: 0.6s;
+  -moz-transform-style: preserve-3d;
+  position: relative;
+}
+
+/* line 719, ../sass/default.scss */
+.front, .back {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* line 728, ../sass/default.scss */
+.front {
+  z-index: 1;
+}
+
+/* line 736, ../sass/default.scss */
+.back {
+  -webkit-transform: rotateY(-180deg);
+  -moz-transform: rotateY(-180deg);
+}
+
+/* line 743, ../sass/default.scss */
+#content .row .title {
+  color: black;
+  font-size: 72px;
+  font-weight: 300;
+  line-height: 90px;
+  left: 5%;
+  position: absolute;
+  top: 50%;
+  z-index: 666;
+  margin-top: -40px;
+}
+/* line 756, ../sass/default.scss */
+#content #page-3 .caption {
+  bottom: 200px;
+  left: 100px;
+  position: absolute;
+  width: 70%;
+}
+
+/*#content*/
+/* line 770, ../sass/default.scss */
+.digital.complex .label-h {
+  font-size: 4em;
+  line-height: 80px;
+  color: #000;
+  letter-spacing: 0;
+  font-weight: 700;
+  text-transform: none;
+}
+/* line 778, ../sass/default.scss */
+.digital.complex .company-description {
+  font-size: 30px;
+  line-height: 36px;
+  color: #8a8a8a;
+  text-align: center;
+  padding: 0 25%;
+  font-family: "AvenirNextCyr-Regular", sans-serif;
+}
+/* line 784, ../sass/default.scss */
+.digital.complex #complex-bg {
+  background: transparent url("../images/bg_complex.jpg") repeat scroll 0 0/cover;
+}
+/* line 789, ../sass/default.scss */
+.digital.complex .text-box .text-box-title {
+  text-align: center;
+  font-size: 48px;
+  line-height: 54px;
+  color: #000000;
+  font-family: "AvenirNextCyr-Demi", "sans-serif";
+  margin: 60px auto;
+  padding: 0 200px;
+}
+/* line 796, ../sass/default.scss */
+.digital.complex .text-box .text-box-descr {
+  font-size: 30px;
+  line-height: 38px;
+  color: #8a8a8a;
+  text-align: center;
+  padding: 0 6%;
+  font-family: "AvenirNextCyr-Regular", sans-serif;
+  padding-bottom: 60px;
+}
+/* line 804, ../sass/default.scss */
+.digital.complex .text-box.white {
+  background-color: #ffffff;
+}
+/* line 807, ../sass/default.scss */
+.digital.complex .text-box.gray {
+  background-color: #f8f8f8;
+}
+/* line 810, ../sass/default.scss */
+.digital.complex .text-box.alpha-gray {
+  background-color: #ffffff;
+}
+/* line 814, ../sass/default.scss */
+.digital.complex .text-box {
+  padding-top: 1px;
+}
+/* line 818, ../sass/default.scss */
+.digital.complex .watch-works {
+  margin: 50px auto;
+  position: static;
+}
+
+/* line 828, ../sass/default.scss */
+.components {
+  background: #ffd257;
+  padding-top: 1px;
+}
+/* line 831, ../sass/default.scss */
+.components #title {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+/* line 835, ../sass/default.scss */
+.components .sub-title {
+  margin: 35px 0;
+  text-align: center;
+  letter-spacing: -1.04px;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+}
+/* line 841, ../sass/default.scss */
+.components .sub-title {
+  font-size: 27px;
+  margin-bottom: 0;
+}
+/* line 1096, ../sass/partials/_mixins.scss */
+.components .row:before, .components .row:after, .components .row-2:before, .components .row-2:after {
+  content: " ";
+  display: table;
+}
+/* line 1101, ../sass/partials/_mixins.scss */
+.components .row:after, .components .row-2:after {
+  clear: both;
+}
+/* line 848, ../sass/default.scss */
+.components .row {
+  width: 960px;
+}
+/* line 851, ../sass/default.scss */
+.components .row-2 {
+  width: 800px;
+  clear: both;
+  margin: auto;
+}
+/* line 855, ../sass/default.scss */
+.components .row-2 .item {
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+/* line 859, ../sass/default.scss */
+.components .row-2 .item .icon {
+  background: #ffffff;
+  border-radius: 50%;
+  height: 160px;
+  display: table-cell;
+  left: 120px;
+  position: relative;
+  vertical-align: middle;
+  width: 160px;
+}
+/* line 873, ../sass/default.scss */
+.components .row.grid-5 {
+  width: 960px;
+  margin: 0 auto;
+}
+/* line 876, ../sass/default.scss */
+.components .row.grid-5 .item {
+  width: 300px;
+  margin-right: 30px;
+  content: "";
+  display: inline-block;
+  float: left;
+  text-align: center;
+  margin-bottom: 40px;
+}
+/* line 881, ../sass/default.scss */
+.components .row.grid-5 .item p {
+  color: #333;
+  font-size: 17px;
+  font-weight: 400;
+  margin-top: 0;
+}
+/* line 887, ../sass/default.scss */
+.components .row.grid-5 .item .icon {
+  content: "";
+  display: table-cell;
+  height: 160px;
+  text-align: center;
+  vertical-align: middle;
+  width: 160px;
+  background: #FFFFFF;
+  border-radius: 50%;
+  left: 65px;
+  margin: 0 auto;
+  margin-left: 50px;
+  position: relative;
+}
+/* line 907, ../sass/default.scss */
+.components .row.grid-5 .item-3 {
+  content: "";
+}
+/* line 909, ../sass/default.scss */
+.components .row.grid-5 .item-3:nth-of-type(3) {
+  margin-right: 0;
+}
+/* line 913, ../sass/default.scss */
+.components .row.grid-5 .item-2 {
+  content: "";
+}
+/* line 915, ../sass/default.scss */
+.components .row.grid-5 .item-2:nth-of-type(2) {
+  margin-right: 0;
+}
+/* line 920, ../sass/default.scss */
+.components .divider-center {
+  background: url("../images/center-complex.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 150px;
+}
+
+/* .COMPONENTS */
+/*
+*
+* TARGETING SECTION
+*
+*/
+/* line 936, ../sass/default.scss */
+.targeting {
+  min-height: 450px;
+  background: transparent url("../images/target-bg.jpg") repeat scroll 0 0;
+  padding-top: 1px;
+}
+/* line 941, ../sass/default.scss */
+.targeting .sub-title {
+  color: black;
+  font-size: 30px;
+  font-weight: 500;
+  margin: 35px 0;
+  text-align: center;
+}
+/* line 949, ../sass/default.scss */
+.targeting .divider-center {
+  background: url("../images/site-divider.jpg") no-repeat;
+  width: 100%;
+  height: 90px;
+}
+
+/* TARGETTING*/
+/* line 956, ../sass/default.scss */
+.site-video {
+  background: transparent url("../images/blue-bg.jpg") repeat scroll 0 0;
+  padding-top: 1px;
+  padding-bottom: 60px;
+}
+
+/* line 961, ../sass/default.scss */
+.garanties {
+  background-color: #f8f8f8;
+  padding-top: 1px;
+}
+/* line 964, ../sass/default.scss */
+.garanties .title-1 {
+  color: black;
+  font-size: 48px;
+  font-weight: 300;
+  margin: 40px 0;
+  margin-bottom: 20px;
+  text-align: center;
+}
+/* line 973, ../sass/default.scss */
+.garanties .description {
+  color: #8a8a8a;
+  font-size: 30px;
+  font-weight: 400;
+  width: 722px;
+  margin: 0 auto 30px;
+  text-align: center;
+}
+/* line 982, ../sass/default.scss */
+.garanties .item {
+  padding: 25px;
+}
+/* line 986, ../sass/default.scss */
+.garanties .buyers {
+  padding-top: 1px;
+  background: #FFF;
+}
+/* line 989, ../sass/default.scss */
+.garanties .buyers .title {
+  color: black;
+  font-size: 30px;
+  font-weight: 500;
+}
+/* line 996, ../sass/default.scss */
+.garanties .buyers .sub-title {
+  color: black;
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+}
+/* line 1003, ../sass/default.scss */
+.garanties .buyers .descr {
+  color: #8a8a8a;
+  font-size: 30px;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+/*GARANTIES*/
+/* line 1017, ../sass/default.scss */
+#content .row.sources .item {
+  width: 25%;
+  height: 528px;
+  background-color: white;
+  padding: 39px 18px 28px 39px;
+  float: left;
+  margin: 0 45px;
+}
+/* line 1024, ../sass/default.scss */
+#content .row.sources .item p {
+  color: #999;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 0;
+}
+/* line 1032, ../sass/default.scss */
+#content .row.sources .grid__item .title {
+  color: black;
+  font-size: 30px;
+  font-weight: 500;
+}
+/* line 1038, ../sass/default.scss */
+#content .row.sources .title {
+  color: #000000;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 40px;
+  margin-top: 0px;
+  position: static;
+  margin-bottom: 10px;
+}
+
+/* line 1053, ../sass/default.scss */
+#orders-get .inner {
+  width: 960px;
+  margin: auto;
+  position: relative;
+}
+/* line 1058, ../sass/default.scss */
+#orders-get .left {
+  width: 330px;
+  height: 190px;
+  border: 1px solid yellow;
+  background: #FFF;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  top: 200px;
+  padding: 6%;
+  text-align: center;
+}
+/* line 1070, ../sass/default.scss */
+#orders-get .right {
+  width: 330px;
+  height: 190px;
+  border: 1px solid yellow;
+  background: #FFF;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  top: 200px;
+}
+/* line 1081, ../sass/default.scss */
+#orders-get h5 {
+  font-size: 60px;
+  line-height: 66px;
+  color: #000;
+  text-align: center;
+}
