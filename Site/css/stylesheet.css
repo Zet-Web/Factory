@@ -75,18 +75,10 @@
 html,
 body {
   height: 100%;
+  font-size: 16px;
 }
 
-html {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-*, *:before, *:after {
-  -webkit-box-sizing: inherit;
-  -moz-box-sizing: inherit;
-  box-sizing: inherit;
-  }
+
 /*
 |^^^^^^^^^^^|______ EXAMPLE
 |____EXAMPLES_Code____|','''|'''''''''\____,, CAN WRITE
@@ -168,6 +160,7 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
    right:0;
    background-color:#FFF;
    padding-left:38px;
+    border-left: 1px solid #e3e3e3;
  }
 
 
@@ -401,3 +394,66 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 .digital {
 
 }
+
+.g {
+      padding: 0em;
+      overflow: hidden;
+      margin-bottom: 0;
+    }
+    .g li {
+      float: left;
+      width: 50%;
+      padding: 0em;
+      list-style-type: none;
+    }
+    .g img {
+      display: block;
+    }
+    .g li:nth-child(odd) {
+      clear: left;
+    }
+
+    @media screen and (min-width: 40em) {
+      .g li {
+          width: 33.3333333333333333%;
+        }
+        .g li:nth-child(3n+1) {
+          clear: left;
+        }
+        .g li:nth-child(odd) {
+        clear: none;
+      }
+    }
+    @media screen and (min-width: 55em) {
+      .g li {
+          width: 25%;
+        }
+        .g li:nth-child(4n+1) {
+          clear: left;
+        }
+        .g li:nth-child(3n+1) {
+        clear: none;
+      }
+    }
+    @media screen and (min-width: 72em) {
+      .g li {
+          width: 20%;
+        }
+        .g li:nth-child(5n+1) {
+          clear: left;
+        }
+        .g li:nth-child(4n+1) {
+        clear: none;
+      }
+    }
+    @media screen and (min-width: 90em) {
+      .g li {
+          width: 16.666666666%;
+        }
+        .g li:nth-child(6n+1) {
+          clear: left;
+        }
+        .g li:nth-child(5n+1) {
+        clear: none;
+      }
+    }

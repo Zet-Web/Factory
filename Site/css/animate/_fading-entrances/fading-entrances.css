@@ -1,8 +1,8 @@
 /*
 Error: Undefined mixin 'keyframes'.
-        on line 1 of C:/WebServers/home/localhost/www/fgp/Factory/Site/sass/animate/_fading-entrances/_fadeIn.scss, in `keyframes'
-        from line 1 of C:/WebServers/home/localhost/www/fgp/Factory/Site/sass/animate/_fading-entrances/_fadeIn.scss
-        from line 4 of C:/WebServers/home/localhost/www/fgp/Factory/Site/sass/animate/_fading-entrances/fading-entrances.scss
+        on line 1 of L:/home/localhost/www/Factorygroup.ru/Factory/Site/sass/animate/_fading-entrances/_fadeIn.scss, in `keyframes'
+        from line 1 of L:/home/localhost/www/Factorygroup.ru/Factory/Site/sass/animate/_fading-entrances/_fadeIn.scss
+        from line 4 of L:/home/localhost/www/Factorygroup.ru/Factory/Site/sass/animate/_fading-entrances/fading-entrances.scss
 
 1: // INDEX OF FADING ENTRANCES
 2: 
@@ -12,9 +12,9 @@ Error: Undefined mixin 'keyframes'.
 6:   "_fadeInDownBig",
 
 Backtrace:
-C:/WebServers/home/localhost/www/fgp/Factory/Site/sass/animate/_fading-entrances/_fadeIn.scss:1:in `keyframes'
-C:/WebServers/home/localhost/www/fgp/Factory/Site/sass/animate/_fading-entrances/_fadeIn.scss:1
-C:/WebServers/home/localhost/www/fgp/Factory/Site/sass/animate/_fading-entrances/fading-entrances.scss:4
+L:/home/localhost/www/Factorygroup.ru/Factory/Site/sass/animate/_fading-entrances/_fadeIn.scss:1:in `keyframes'
+L:/home/localhost/www/Factorygroup.ru/Factory/Site/sass/animate/_fading-entrances/_fadeIn.scss:1
+L:/home/localhost/www/Factorygroup.ru/Factory/Site/sass/animate/_fading-entrances/fading-entrances.scss:4
 C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:349:in `block in visit_mixin'
 C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/stack.rb:98:in `block in with_mixin'
 C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/stack.rb:115:in `with_frame'
@@ -72,4 +72,4 @@ C:/Ruby22/bin/compass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'keyframes'.\A         on line 1 of C:/WebServers/home/localhost/www/fgp/Factory/Site/sass/animate/_fading-entrances/_fadeIn.scss, in `keyframes'\A         from line 1 of C:/WebServers/home/localhost/www/fgp/Factory/Site/sass/animate/_fading-entrances/_fadeIn.scss\A         from line 4 of C:/WebServers/home/localhost/www/fgp/Factory/Site/sass/animate/_fading-entrances/fading-entrances.scss\A \A 1: // INDEX OF FADING ENTRANCES\A 2: \A 3: @import \A 4:   \"_fadeIn\",\A 5:   \"_fadeInDown\",\A 6:   \"_fadeInDownBig\","; }
+  content: "Error: Undefined mixin 'keyframes'.\A         on line 1 of L:/home/localhost/www/Factorygroup.ru/Factory/Site/sass/animate/_fading-entrances/_fadeIn.scss, in `keyframes'\A         from line 1 of L:/home/localhost/www/Factorygroup.ru/Factory/Site/sass/animate/_fading-entrances/_fadeIn.scss\A         from line 4 of L:/home/localhost/www/Factorygroup.ru/Factory/Site/sass/animate/_fading-entrances/fading-entrances.scss\A \A 1: // INDEX OF FADING ENTRANCES\A 2: \A 3: @import \A 4:   \"_fadeIn\",\A 5:   \"_fadeInDown\",\A 6:   \"_fadeInDownBig\","; }

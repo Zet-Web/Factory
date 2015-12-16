@@ -1,8 +1,8 @@
 /*
 Error: Undefined mixin 'keyframes'.
-        on line 1 of C:/WebServers/home/localhost/www/fgp/Factory/Site/sass/animate/_lightspeed/_lightSpeedIn.scss, in `keyframes'
-        from line 1 of C:/WebServers/home/localhost/www/fgp/Factory/Site/sass/animate/_lightspeed/_lightSpeedIn.scss
-        from line 4 of C:/WebServers/home/localhost/www/fgp/Factory/Site/sass/animate/_lightspeed/lightspeed.scss
+        on line 1 of L:/home/localhost/www/Factorygroup.ru/Factory/Site/sass/animate/_lightspeed/_lightSpeedIn.scss, in `keyframes'
+        from line 1 of L:/home/localhost/www/Factorygroup.ru/Factory/Site/sass/animate/_lightspeed/_lightSpeedIn.scss
+        from line 4 of L:/home/localhost/www/Factorygroup.ru/Factory/Site/sass/animate/_lightspeed/lightspeed.scss
 
 1: // INDEX OF LIGHTSPEED ANIMATIONS
 2: 
@@ -11,9 +11,9 @@ Error: Undefined mixin 'keyframes'.
 5:   "_lightSpeedOut";
 
 Backtrace:
-C:/WebServers/home/localhost/www/fgp/Factory/Site/sass/animate/_lightspeed/_lightSpeedIn.scss:1:in `keyframes'
-C:/WebServers/home/localhost/www/fgp/Factory/Site/sass/animate/_lightspeed/_lightSpeedIn.scss:1
-C:/WebServers/home/localhost/www/fgp/Factory/Site/sass/animate/_lightspeed/lightspeed.scss:4
+L:/home/localhost/www/Factorygroup.ru/Factory/Site/sass/animate/_lightspeed/_lightSpeedIn.scss:1:in `keyframes'
+L:/home/localhost/www/Factorygroup.ru/Factory/Site/sass/animate/_lightspeed/_lightSpeedIn.scss:1
+L:/home/localhost/www/Factorygroup.ru/Factory/Site/sass/animate/_lightspeed/lightspeed.scss:4
 C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:349:in `block in visit_mixin'
 C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/stack.rb:98:in `block in with_mixin'
 C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/stack.rb:115:in `with_frame'
@@ -71,4 +71,4 @@ C:/Ruby22/bin/compass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'keyframes'.\A         on line 1 of C:/WebServers/home/localhost/www/fgp/Factory/Site/sass/animate/_lightspeed/_lightSpeedIn.scss, in `keyframes'\A         from line 1 of C:/WebServers/home/localhost/www/fgp/Factory/Site/sass/animate/_lightspeed/_lightSpeedIn.scss\A         from line 4 of C:/WebServers/home/localhost/www/fgp/Factory/Site/sass/animate/_lightspeed/lightspeed.scss\A \A 1: // INDEX OF LIGHTSPEED ANIMATIONS\A 2: \A 3: @import \A 4:   \"_lightSpeedIn\",\A 5:   \"_lightSpeedOut\";"; }
+  content: "Error: Undefined mixin 'keyframes'.\A         on line 1 of L:/home/localhost/www/Factorygroup.ru/Factory/Site/sass/animate/_lightspeed/_lightSpeedIn.scss, in `keyframes'\A         from line 1 of L:/home/localhost/www/Factorygroup.ru/Factory/Site/sass/animate/_lightspeed/_lightSpeedIn.scss\A         from line 4 of L:/home/localhost/www/Factorygroup.ru/Factory/Site/sass/animate/_lightspeed/lightspeed.scss\A \A 1: // INDEX OF LIGHTSPEED ANIMATIONS\A 2: \A 3: @import \A 4:   \"_lightSpeedIn\",\A 5:   \"_lightSpeedOut\";"; }

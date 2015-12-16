@@ -1,8 +1,8 @@
 
 $(document).ready(function() {
-  $('.dropdown').tendina();
+ /* $('.dropdown').tendina();*/
 
-    $('.window').windows({
+   /* $('.window').windows({
         snapping: true,
         snapSpeed: 500,
         snapInterval: 1100,
@@ -16,6 +16,7 @@ $(document).ready(function() {
             // when new window ($el) enters viewport
         }
     });
+    */
 
     
 

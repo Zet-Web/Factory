@@ -1,3 +1,4 @@
+@import "compass/css3";
 $browser-context: 16; // Default
 
 @function em($pixels, $context: $browser-context) {
@@ -304,8 +305,6 @@ $large-width: 1920px;
    &::-webkit-input-placeholder { @content; }
    &:-ms-input-placeholder { @content; }
 }
-
-
 
 // =============================================================================
 // String Replace

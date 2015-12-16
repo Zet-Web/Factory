@@ -3,6 +3,9 @@
   <component name="CssXFireSettings">
     <general autoClear="false" autoExpand="true" />
     <strategy useRoutes="false" mediaReduce="false" fileReduce="false" currentDocumentsReduce="false" resolveVariables="true" resolveMixins="true" />
-    <routes />
+    <routes>
+      <file url="file://$PROJECT_DIR$" route="/" />
+    </routes>
   </component>
 </project>
+
