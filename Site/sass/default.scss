@@ -302,22 +302,26 @@ $transition: 1s;
 
       &:hover {
         color: $white;
-        background-color: #ff4440;
+        background-color: #ff0000;
       }
     }
   }
 
   .window {
-    width: 100%;
+    width: 97%;
     height: 100%;
     min-height: 100%;
     padding-top: 1px;
     position: relative;
     cursor: pointer;
     background-position: center center;
+    &:after {
+      background-color: #bc1339;
 
+    }
     &:hover:after {
       @include opacity(1);
+  opacity: 1;;
     }
 
     //      position:absolute;
@@ -359,9 +363,9 @@ $transition: 1s;
     }
 
     &:after {
-      @include opacity(0.8);
+      @include opacity(0.7);
 
-      background: url("") #FFF no-repeat;
+      background: url("") #ffffff no-repeat;
       content: '';
       display: block;
       position: absolute;
@@ -373,6 +377,9 @@ $transition: 1s;
       @include transition(all 0.5s ease);
 
       cursor: pointer;
+
+      opacity: 0.6;
+
     }
 
     &:hover:after {
@@ -415,18 +422,59 @@ $transition: 1s;
         background-color: #bc1339;
         @include opacity(0.75);
     }
+    &:hover {
+      .caption {
+        color:#FFF;
+      }
+      .watch-works {
+        border-color: #FFF;
+        .shortcut-case {
+          color:#FFF;
+        }
+      }
+    }
   }
 
   #page-4 {
     background: rgba(0, 0, 0, 0) url("../images/Layer 13.png") repeat scroll 0 0;
     background-size: cover;
     background-position: center center;
+    &:hover:after {
+        background-color: #bc1339;
+        @include opacity(0.75);
+    }
+    &:hover {
+      .caption {
+        color:#FFF;
+      }
+      .watch-works {
+        border-color: #FFF;
+        .shortcut-case {
+          color:#FFF;
+        }
+      }
+    }
   }
 
   #page-5 {
-    background: rgba(0, 0, 0, 0) url("../images/Layer 7.jpg") repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) url("../images/Layer-twin.jpg") repeat scroll 0 0;
     background-size: cover;
     background-position: center center;
+    &:hover:after {
+        background-color: #bc1339;
+        @include opacity(0.75);
+    }
+    &:hover {
+      .caption {
+        color:#FFF;
+      }
+      .watch-works {
+        border-color: #e29090;
+        .shortcut-case {
+          color:#FFF;
+        }
+      }
+    }
   }
 
   #page-2.window:after {
@@ -629,6 +677,7 @@ $transition: 1s;
 
   .case-3 {
     background-image: url("../images/Layer 4.png");
+
   }
 }
 
@@ -931,6 +980,13 @@ $transition: 1s;
       left: 100px;
       position: absolute;
       width: 70%;
+    }
+    &:hover {
+      .shortcut-case {
+        // background-color: #FFF;
+        // color:#000;
+      }
+
     }
   }
 }
@@ -2422,9 +2478,9 @@ $transition: 1s;
 .form-file + label {}
 
 .digital #page-3 {
-  background: transparent url("../images/Layer 10.jpg") no-repeat scroll 0 0;
+  background: transparent url("../images/Layer 7.jpg") no-repeat scroll 0 0;
   background-size: cover;
-  background-position: top center;
+  background-position: center center;
   background-repeat: no-repeat;
   &:hover {
     .caption {
