@@ -1,0 +1,155 @@
+!!! 5
+%html
+  %head
+    = Haml::Engine.new(File.read('./head.haml')).render
+  %body
+  %body
+    #content.digital
+      %section.site-page.window
+        .title Разрабатываем сайты
+        %p
+          Разработка сайта – не простая задача, но мы постарались облегчить процесс
+          и сделать его для наших клиентов наиболее понятным и открытым.
+        .watch-works
+          %a
+            Начать сотрудничество
+      %section.how-it
+        .container
+          .title Как это происходит?
+          .row
+            .col-xs-4
+              .inner-radius
+                %img(src="images/icon-2.png")
+              %p Заполняем бриф
+            .col-xs-4
+              .inner-radius
+                %img(src="images/icon-2.png")
+              %p Проектируем интерфейс и юзабилити
+            .col-xs-4
+              .inner-radius
+                %img(src="images/icon-2.png")
+              %p Тестируем сайт под различными браузерами и ОС
+
+            .col-xs-4
+              .inner-radius
+                %img(src="images/icon-2.png")
+              %p Заполняем бриф
+            .col-xs-4
+              .inner-radius
+                %img(src="images/icon-2.png")
+              %p Проектируем интерфейс и юзабилити
+            .col-xs-4
+              .inner-radius
+                %img(src="images/icon-2.png")
+              %p Тестируем сайт под различными браузерами и ОС
+
+              .col-xs-4
+                .inner-radius
+                  %img(src="images/icon-2.png")
+                %p Заполняем бриф
+              .col-xs-4
+                .inner-radius
+                  %img(src="images/icon-2.png")
+                %p Проектируем интерфейс и юзабилити
+              .col-xs-4
+                .inner-radius
+                  %img(src="images/icon-2.png")
+                %p Тестируем сайт под различными браузерами и ОС
+      %section.techno
+        .container
+          .row
+            .col-xs-4
+              %img(src="images/tech-icon-1.png")
+              .sub-title HTML 5
+              %p
+                Современный инструмент
+                разработки визуальной
+                структуры web-сайта
+
+              .col-xs-4
+                %img(src="images/tech-icon-1.png")
+                .sub-title CSS 3
+                %p
+                  Новый стандарт оформления
+                  HTML документов, расширяющий
+                  возможности по интерактивному
+                  оформлению сайтов
+              .col-xs-4
+                %img(src="images/tech-icon-1.png")
+                .sub-title Bitrix
+                %p
+                  Самая популярная
+                  система управления проектами
+                  (по версии сайта CMS Magaxine)
+      %section.work-withus
+        .container
+          .title Преимущество работы с нами
+          .row
+            .col-xs-4
+              .inner-radius
+                %img(src="images/icon-2.png")
+              %p
+                представление информации
+                в форме легкой и понятной
+                для восприятия
+            .col-xs-4
+              .inner-radius
+                %img(src="images/icon-2.png")
+              %p
+                высокий
+                профессиональный
+                уровень разработки
+            .col-xs-4
+              .inner-radius
+                %img(src="images/icon-2.png")
+              %p
+                соблюдение
+                сроков
+      %section.our-team
+        .baner
+          Наша команда применяет данные принципы
+          к любому носителю информации — будь то
+          веб-страница, экран мобильного телефона
+          или логотип.
+        .stats.row
+          .col-xs-4.stat
+            .numbers 150
+            %p платных аудитов выполнено
+          .col-xs-4.stat
+            .numbers 30+
+            %p Реализованных проектов
+          .col-xs-4.stat
+            .numbers 250
+            %p Сайтов продвинутых в ТОП
+          .col-xs-4.stat
+            .numbers 7
+            %p лет в интернет бизнесе
+      %section.feedback-footer
+        .title Оставьте заявку
+        .container
+          .row
+            %form#contact-form.contact-form{:role => "form"}
+              .row
+                .col-md-4
+                  .form-group
+                    %input#Name.form-control{:autocomplete => "off", :name => "Name", :placeholder => "Как вас зовут", :type => "text"}
+                .col-md-4
+                  .form-group
+                    %input#email.form-control{:autocomplete => "off", :name => "email", :placeholder => "E-mail", :type => "email"}
+                .col-md-4
+                  .form-group
+                    %input#email.form-control{:autocomplete => "off", :name => "email", :placeholder => "Номер телефона", :type => "email"}
+              .row
+                .col-md-12
+                  .form-group
+                    %textarea#Message.form-control.textarea{:name => "Message", :placeholder => "Комментарий", :rows => "3"}
+              .row
+                .col-md-12
+                  %input#edit-file.form-file{:type => "file"}/
+                  %label{:for => "edit-file"}
+                    %span.fa.fa-upload Добавить файлs
+                  %button.btn.main-btn.pull-right{:type => "submit"}
+                    Отправить
+
+    .sidebar-right
+      = Haml::Engine.new(File.read('./menu.haml')).render
