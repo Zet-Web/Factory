@@ -72,6 +72,14 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'AvenirNextCyr-Heavy';
+  src: url("../fonts/av/AvenirNextCyr-Thin.eot");
+  src: url("../fonts/AvenirNextCyr-Thin.eot?#iefix") format("embedded-opentype"), url("../fonts/AvenirNextCyr-Thin.woff") format("woff"), url("../fonts/AvenirNextCyr-Thin.ttf") format("truetype"), url("../fonts/AvenirNextCyr-Thin.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
 html,
 body {
   height: 100%;
@@ -236,6 +244,7 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
   background-color:#ff4440;
 }
 .menu {
+  width: 22%;
 
 }
 

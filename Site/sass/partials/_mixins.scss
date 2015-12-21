@@ -1880,13 +1880,75 @@ margin-left: -15px;
    }
 }
 
-.a {
-   @include size(100px, 100px);
-   @include char_text(16px, 20px, #FFF);
-   border: 1px solid #000;
-   background-color: #333333;
-   margin: 10px 0 0 10px;
-   padding: 10px 0 0 10px;
-   float:none;
 
+  @mixin h-center {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+
+  @mixin v-center {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  @mixin table {
+    display: table;
+    height: 100%;
+    width: 100%;
+    > div {
+      display: table-cell;
+      vertical-align: top;
+      height: 100%;
+    }
+  }
+
+
+
+@mixin inline() {
+  display: inline-block;
+    zoom: 1;
+    *display: inline;
+    vertical-align: top;
+}
+
+@mixin transition-e($delay) {
+  transition: all $delay ease;
+  -o-transition: all $delay ease;
+  -ms-transition: all $delay ease;
+  -moz-transition: all $delay ease;
+  -webkit-transition: all $delay ease;
+}
+
+@mixin clear() {
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+
+  &:after {
+    clear: both;
+  }
+}
+
+
+
+
+@function calculateRem($size) {
+  $remSize: $size / 10px;
+  @return $remSize * 1rem;
+}
+
+@function calculateEm($size) {
+  $remSize: $size / 10px;
+  @return $remSize * 1em;
+}
+
+@mixin font-size($size) {
+  font-size: $size;
+  font-size: calculateEm($size);
 }

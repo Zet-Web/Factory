@@ -1,0 +1,26 @@
+%section.feedback-footer
+  .title Оставьте заявку
+  .container
+    .row
+      %form#contact-form.contact-form{:role => "form"}
+        .row
+          .col-md-4
+            .form-group
+              %input#Name.form-control{:autocomplete => "off", :name => "Name", :placeholder => "Как вас зовут", :type => "text"}
+          .col-md-4
+            .form-group
+              %input#email.form-control{:autocomplete => "off", :name => "email", :placeholder => "E-mail", :type => "email"}
+          .col-md-4
+            .form-group
+              %input#email.form-control{:autocomplete => "off", :name => "email", :placeholder => "Номер телефона", :type => "email"}
+        .row
+          .col-md-12
+            .form-group
+              %textarea#Message.form-control.textarea{:name => "Message", :placeholder => "Комментарий", :rows => "3"}
+        .row
+          .col-md-12
+            %input#edit-file.form-file{:type => "file"}/
+            %label{:for => "edit-file"}
+              %span.fa.fa-upload Добавить файлs
+            %button.btn.main-btn.pull-right{:type => "submit"}
+              Отправить

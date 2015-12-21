@@ -22,30 +22,30 @@ $(document).ready(function() {
 
 }); // /.document-ready
 
-(function () {
-    var inputs;
-    inputs = document.querySelectorAll('.form-file');
-    Array.prototype.forEach.call(inputs, function (input) {
-        var label, labelVal;
-        label = input.nextElementSibling;
-        labelVal = label.innerHTML;
-        return input.addEventListener('change', function (e) {
-            var fileName;
-            fileName = e.target.value.split('\\').pop();
-            if (fileName) {
-                return label.querySelector('span').innerHTML = fileName;
-            } else {
-                return label.innerHTML = labelVal;
-            }
-        });
-    });
-    input.addEventListener('focus', function () {
-        return input.classList.add('has-focus');
-    });
-    input.addEventListener('blur', function () {
-        return input.classList.remove('has-focus');
-    });
-}.call(this));
+// (function () {
+//     var inputs;
+//     inputs = document.querySelectorAll('.form-file');
+//     Array.prototype.forEach.call(inputs, function (input) {
+//         var label, labelVal;
+//         label = input.nextElementSibling;
+//         labelVal = label.innerHTML;
+//         return input.addEventListener('change', function (e) {
+//             var fileName;
+//             fileName = e.target.value.split('\\').pop();
+//             if (fileName) {
+//                 return label.querySelector('span').innerHTML = fileName;
+//             } else {
+//                 return label.innerHTML = labelVal;
+//             }
+//         });
+//     });
+//     input.addEventListener('focus', function () {
+//         return input.classList.add('has-focus');
+//     });
+//     input.addEventListener('blur', function () {
+//         return input.classList.remove('has-focus');
+//     });
+// }.call(this));
 
 
 
